@@ -1,0 +1,16 @@
+KaspiPulse — Open Data project by Academica
+Copyright (c) 2026 Academica Courses
+
+The DATA in this repository (everything under data/) is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+The CODE in this repository (scrapers, pipelines, workflows) is licensed under
+the MIT License:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, merge, publish, distribute, and/or
+sublicense it, subject to including this notice in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

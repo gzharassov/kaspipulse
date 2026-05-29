@@ -1,0 +1,22 @@
+# --- KaspiPulse .gitignore ---
+# Сырой JSON каждого сбора НЕ коммитим (тяжёлый, восстановим повторным fetch).
+data/raw/*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальные окружения
+.venv/
+
+# macOS
+.DS_Store
+
+# Локальные настройки Claude Code
+.claude/
+
+# Что КОММИТИМ (публичный датасет) — оставляем под версионным контролем:
+#   data/weekly/   — чистые недельные срезы YYYY-MM-DD.csv.gz
+#   data/weekly/clean/ — очищенные срезы (clean.py)
+#   data/derived/  — products_timeseries.csv.gz, niche_summary.csv.gz
+#   data/_logs/    — отчёты очистки (cleaning_report_*.csv)
