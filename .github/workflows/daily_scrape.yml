@@ -78,15 +78,21 @@ jobs:
         env:
           PROJECT: ${{ vars.GCP_PROJECT_ID }}
           DATASET: ${{ vars.BQ_DATASET }}
+          # Локация dataset — должна совпадать с тем, где создан kaspipulse.
+          # Без --location bq идёт в US по умолчанию и не находит dataset в EU.
+          BQ_LOCATION: ${{ vars.BQ_LOCATION }}
         run: |
           DAY=$(date -u +%Y-%m-%d)
           PART=$(date -u +%Y%m%d)
           FILE="data/weekly/clean/${DAY}.csv.gz"
+          LOC="${BQ_LOCATION:-europe-west3}"   # фолбэк, если переменная не задана
           if [ -f "$FILE" ]; then
-            # декоратор партиции snapshots$YYYYMMDD делает повторную загрузку
-            # за тот же день идемпотентной (партиция перезаписывается)
-            bq load --replace --source_format=CSV --skip_leading_rows=1 --autodetect \
-              --project_id="${PROJECT}" \
+            # Без --autodetect: схема берётся из таблицы snapshots (sql/01),
+            # колонки маппятся по порядку — он совпадает с выходом clean.py.
+            # Декоратор партиции snapshots$YYYYMMDD + --replace делают повторную
+            # загрузку за тот же день идемпотентной (партиция перезаписывается).
+            bq load --replace --source_format=CSV --skip_leading_rows=1 \
+              --location="${LOC}" --project_id="${PROJECT}" \
               "${DATASET}.snapshots\$${PART}" "${FILE}"
           else
             echo "Нет файла ${FILE} — нечего грузить."
