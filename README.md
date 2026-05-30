@@ -1,12 +1,16 @@
 # KaspiPulse — Open Data по нише маркетплейса Kaspi.kz
 
-Некоммерческий учебный open-data проект Academica. Еженедельно собираем публичные
+Некоммерческий учебный open-data проект Academica. Ежедневно собираем публичные
 данные по одной товарной нише Kaspi.kz, оцениваем спрос по косвенным метрикам
 (методология review-velocity, как у мировых сервисов Jungle Scout / Helium 10)
 и публикуем чистые датасеты.
 
 **Текущая ниша:** Товары для дома (`:category:Home`)
-**Город пилота:** Астана · **Частота:** раз в неделю · **Лицензия данных:** CC BY-NC 4.0
+**Город пилота:** Астана · **Частота:** ежедневно · **Лицензия данных:** CC BY-NC 4.0
+
+**Архитектура данных:** GitHub (публичный raw/clean-датасет, источник истины для
+сырья) → **Google BigQuery** (аналитический слой: velocity, оценка продаж, сводка
+по нише — считается в SQL) → **Looker Studio** (дашборды).
 
 ---
 
@@ -16,20 +20,30 @@
 - Собираются **только публичные данные витрины**, без обхода авторизации или капчи.
 - Все показатели продаж и выручки — **оценочные** (estimated), а не фактические:
   Kaspi не публикует реальные продажи, мы оцениваем их косвенно (см. «Методология»).
-- Частота сбора — раз в неделю — создаёт минимальную нагрузку на сервис.
+- Частота сбора — один проход в день — создаёт минимальную нагрузку на сервис.
 
 ---
 
 ## Как пользоваться данными
 
+Есть два уровня доступа.
+
+**1. Сырьё и очищенные срезы — прямо из GitHub** (без BigQuery):
+
 ```python
 import pandas as pd
-df = pd.read_csv("data/weekly/2026-06-01.csv.gz")           # один недельный срез
-ts = pd.read_csv("data/derived/products_timeseries.csv.gz") # склеенный временной ряд
+raw   = pd.read_csv("data/weekly/2026-06-01.csv.gz")        # сырой дневной срез (parse.py)
+clean = pd.read_csv("data/weekly/clean/2026-06-01.csv.gz")  # очищенный срез (clean.py)
 ```
 
 Каждый файл `data/weekly/YYYY-MM-DD.csv.gz` — снимок ниши на дату сбора.
-Накопление снимков по неделям даёт временной ряд с оценкой продаж.
+`data/weekly/clean/` — те же срезы после дедупа, фильтра цен и пометки выбросов.
+
+**2. Аналитика — в Google BigQuery** (velocity, оценка продаж, сводка по нише).
+Очищенные срезы ежедневно грузятся в таблицу `snapshots`, поверх которой живут
+вью `products_timeseries` и `niche_summary` (см. `sql/`). Из BigQuery данные
+тянет Looker Studio. Методология та же, что в Python-референсе, — перенесена в SQL
+один-в-один.
 
 ## Методология оценки спроса
 
@@ -39,8 +53,8 @@ ts = pd.read_csv("data/derived/products_timeseries.csv.gz") # склеенный
   продаж. Прирост **нормируется на интервал в днях**, чтобы пропуск недели не
   искажал недельную скорость.
   `est_sales ≈ (Δreviews × 7 / days_diff) / review_rate`.
-- **Композитный скоринг ниши** (в `aggregate.py`, следующая итерация): связка
-  цены, числа отзывов, темпа их прироста и цены → ранжирование «горячих» ниш.
+- **Композитный скоринг ниши** (BQ-вью `niche_summary`, ранее `aggregate.py`):
+  связка цены, числа отзывов, темпа их прироста и цены → ранжирование «горячих» ниш.
 
 ### Калибровка `review_rate`
 
@@ -67,14 +81,20 @@ ts = pd.read_csv("data/derived/products_timeseries.csv.gz") # склеенный
 
 ## Как это работает технически
 
-GitHub Actions раз в неделю запускает на временной машине последовательность:
+GitHub Actions раз в день запускает на временной машине последовательность:
 
 ```
-scraper/fetch.py     -> сырой JSON с эндпоинта /yml/product-view/pl/results
-scraper/parse.py     -> чистая таблица товаров   -> data/weekly/<дата>.csv.gz
-pipeline/estimate.py -> склейка всех срезов, расчёт velocity и оценки продаж
-                       -> data/derived/products_timeseries.csv.gz
+scraper/fetch.py  -> сырой JSON с эндпоинта /yml/product-view/pl/results (не коммитим)
+scraper/parse.py  -> чистая таблица товаров     -> data/weekly/<дата>.csv.gz
+scraper/clean.py  -> дедуп, фильтр цен, выбросы  -> data/weekly/clean/<дата>.csv.gz + _logs/
+        commit data/ в GitHub  (публичный архив сырья — источник истины)
+        bq load: очищенный срез -> BigQuery snapshots$<YYYYMMDD>  (best-effort)
 ```
+
+Аналитика (velocity, `est_sales`, `est_revenue`, сводка по нише, `composite_score`)
+считается **в BigQuery SQL** поверх таблицы `snapshots` — см. `sql/`. Python-модули
+`pipeline/estimate.py` и `pipeline/aggregate.py` оставлены как проверенный референс
+методологии и для парити-чека, но в ежедневном пайплайне не вызываются.
 
 Скрипты вежливые: паузы 2–5 сек между страницами, ретраи с экспоненциальным
 бэкоффом, реалистичный User-Agent.
@@ -84,8 +104,10 @@ pipeline/estimate.py -> склейка всех срезов, расчёт veloc
 ```bash
 pip install -r requirements.txt
 python -m scraper.fetch --test     # тест: 2 страницы
-python -m scraper.parse            # чистый CSV
-python -m pipeline.estimate        # аналитика по всем срезам
+python -m scraper.parse            # сырой CSV среза
+python -m scraper.clean            # очищенный CSV + лог очистки
+# аналитика теперь в BigQuery (sql/). Для локальной сверки методологии есть
+# референс: python -m pipeline.estimate  /  python -m pipeline.aggregate
 ```
 
 Город переключается в `scraper/config.py` одной строкой: `ACTIVE_CITY = "astana"`
@@ -93,12 +115,12 @@ python -m pipeline.estimate        # аналитика по всем среза
 
 ## Дорожная карта
 
-- [x] fetch + parse + estimate (review-velocity с нормировкой по дням)
-- [ ] `scraper/clean.py` — отдельный модуль очистки (дедуп, выбросы, лог)
-- [ ] `pipeline/aggregate.py` — сводка по нише и композитный скоринг
-- [ ] GitHub Actions workflow для еженедельного автозапуска
+- [x] fetch + parse + clean (сбор, парсинг, очистка)
+- [x] review-velocity и сводка по нише (референс в Python, перенесены в BigQuery SQL)
+- [x] GitHub Actions workflow для ежедневного автозапуска
+- [x] Загрузка очищенных срезов в BigQuery (`sql/` + шаг `bq load` в workflow)
 - [ ] Калибровка `review_rate` на накопленных данных (3+ среза)
-- [ ] Looker Studio дашборд
+- [ ] Looker Studio дашборд поверх BQ-вью
 
 ## Этика
 

@@ -1,7 +1,7 @@
-name: Weekly Kaspi scrape
+name: Daily Kaspi scrape
 
 # Запускается:
-#  1) по расписанию — каждый понедельник в 04:00 UTC (~09:00 Астана)
+#  1) по расписанию — каждый день в 04:00 UTC (~09:00 Астана)
 #  2) вручную кнопкой "Run workflow" во вкладке Actions
 on:
   schedule:
@@ -29,11 +29,15 @@ jobs:
       - name: Собрать сырьё
         run: python -m scraper.fetch
 
-      - name: Распарсить в недельный срез
+      - name: Распарсить в дневной срез
         run: python -m scraper.parse
 
-      - name: Пересчитать аналитику (velocity, оценка продаж)
-        run: python -m pipeline.estimate
+      - name: Очистить срез (дедуп, выбросы, лог)
+        run: python -m scraper.clean
+
+      # Аналитика (velocity, est_sales, сводка, composite_score) считается
+      # в BigQuery SQL (sql/), а не в Python. pipeline/estimate.py и
+      # pipeline/aggregate.py оставлены как референс и здесь не вызываются.
 
       - name: Закоммитить новые данные
         run: |
@@ -41,5 +45,49 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/
           # коммитим только если что-то изменилось
-          git diff --staged --quiet || git commit -m "data: weekly snapshot $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "data: daily snapshot $(date -u +%Y-%m-%d)"
           git push
+
+      # --- Загрузка в BigQuery (best-effort) ---
+      # Шаги ниже выполняются только если задан секрет GCP_SA_KEY.
+      # Пока GCP не настроен — они пропускаются, и пайплайн остаётся зелёным.
+      - name: Проверить наличие доступа к GCP
+        id: gcp_guard
+        env:
+          SA: ${{ secrets.GCP_SA_KEY }}
+        run: |
+          if [ -n "$SA" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GCP_SA_KEY не задан — пропускаю загрузку в BigQuery."
+          fi
+
+      - name: Auth в Google Cloud
+        if: steps.gcp_guard.outputs.enabled == 'true'
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Установить gcloud/bq
+        if: steps.gcp_guard.outputs.enabled == 'true'
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Загрузить чистый срез в BigQuery
+        if: steps.gcp_guard.outputs.enabled == 'true'
+        env:
+          PROJECT: ${{ vars.GCP_PROJECT_ID }}
+          DATASET: ${{ vars.BQ_DATASET }}
+        run: |
+          DAY=$(date -u +%Y-%m-%d)
+          PART=$(date -u +%Y%m%d)
+          FILE="data/weekly/clean/${DAY}.csv.gz"
+          if [ -f "$FILE" ]; then
+            # декоратор партиции snapshots$YYYYMMDD делает повторную загрузку
+            # за тот же день идемпотентной (партиция перезаписывается)
+            bq load --replace --source_format=CSV --skip_leading_rows=1 --autodetect \
+              --project_id="${PROJECT}" \
+              "${DATASET}.snapshots\$${PART}" "${FILE}"
+          else
+            echo "Нет файла ${FILE} — нечего грузить."
+          fi
