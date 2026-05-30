@@ -1,12 +1,11 @@
 stage,action,reason,product_id,name,price,reviews_count,detail
-2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,18238,2 строк → 1; min_price=400; best_merchant='30459989'
-2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,18238,2 строк → 1; min_price=400; best_merchant='30459989'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",392,18247,2 строк → 1; min_price=392; best_merchant='30454653'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",392,18247,2 строк → 1; min_price=392; best_merchant='30454653'
 2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
 2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
-6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,18238,Δreviews=12 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2990,487,Δreviews=3 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,100189591,Ушастый нянь Для детского белья 2.4 кг,3347,667,Δreviews=2 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,131433432,"Набор ножей Tefal K2216S74, лезвие: нержавеющая сталь 5 шт",25290,66,Δreviews=2 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3340,1779,Δreviews=3 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,123215936,"Набор органайзеров для нижнего белья бежевый, 6 шт",1854,547,Δreviews=2 > threshold=1 (Q3+3.0·IQR)
-6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4899,930,Δreviews=4 > threshold=1 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",392,18247,Δreviews=21 > threshold=2 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2990,488,Δreviews=4 > threshold=2 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3340,1781,Δreviews=5 > threshold=2 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",9999,854,Δreviews=5 > threshold=2 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,123215936,"Набор органайзеров для нижнего белья бежевый, 6 шт",1873,548,Δreviews=3 > threshold=2 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,932,Δreviews=6 > threshold=2 (Q3+3.0·IQR)
