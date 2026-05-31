@@ -1,0 +1,7 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,18269,2 строк → 1; min_price=380; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,18269,2 строк → 1; min_price=380; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,18269,Δreviews=22 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,941,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
