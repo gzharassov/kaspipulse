@@ -1,0 +1,20 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,467,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,121714993,Кокон Champion shop Подвесной кокон серый,119948,19,2 строк → 1; min_price=119948; best_merchant='30353706'
+2_dedup,merged,duplicate_sku,121714993,Кокон Champion shop Подвесной кокон серый,119948,19,2 строк → 1; min_price=119948; best_merchant='30353706'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,153,2 строк → 1; min_price=505; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,153,2 строк → 1; min_price=505; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108539431,"Тюль AB store home 300x270 см 1 шт, сетка, белый",2351,1668,2 строк → 1; min_price=2351; best_merchant='12407025'
+2_dedup,merged,duplicate_sku,108539431,"Тюль AB store home 300x270 см 1 шт, сетка, белый",2351,1668,2 строк → 1; min_price=2351; best_merchant='12407025'
+2_dedup,merged,duplicate_sku,134171716,"Ершик Royal Touch ER-02, пластик",2790,288,2 строк → 1; min_price=2790; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,134171716,"Ершик Royal Touch ER-02, пластик",2790,288,2 строк → 1; min_price=2790; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,129511150,"Орхидея 36 см, Орхидея белая",6400,133,2 строк → 1; min_price=6400; best_merchant='30397124'
+2_dedup,merged,duplicate_sku,129511150,"Орхидея 36 см, Орхидея белая",6400,133,2 строк → 1; min_price=6400; best_merchant='30397124'
+6_outliers,flagged,abnormal_delta_reviews,120089765,"Ортопедическая подушка NikStory 40x60 см, пена с памятью формы, пена с эффектом ",6200,1143,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",390,18348,Δreviews=35 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2949,504,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",1750,1147,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,961,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
