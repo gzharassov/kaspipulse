@@ -1,0 +1,28 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",383,18399,"2 строк → 1; min_price=380; best_merchant='16597033, 18435055'"
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,18399,"2 строк → 1; min_price=380; best_merchant='16597033, 18435055'"
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,468,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,468,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,117157264,"Шланг для полива Rubex 50 м, 20 мм",31800,117,2 строк → 1; min_price=31800; best_merchant='30311231'
+2_dedup,merged,duplicate_sku,117157264,"Шланг для полива Rubex 50 м, 20 мм",31800,117,2 строк → 1; min_price=31800; best_merchant='30311231'
+2_dedup,merged,duplicate_sku,116870360,"Электростанция бензиновая DN7500SXA Huter 6.5 кВт 1 (220 В), 64/10/10",430490,25,2 строк → 1; min_price=430490; best_merchant='1134011'
+2_dedup,merged,duplicate_sku,116870360,"Электростанция бензиновая DN7500SXA Huter 6.5 кВт 1 (220 В), 64/10/10",430490,25,2 строк → 1; min_price=430490; best_merchant='1134011'
+2_dedup,merged,duplicate_sku,102738075,"Papia Bali Flower туалетная бумага 3-слойный 12 шт, первичная целлюлоза",2677,137,2 строк → 1; min_price=2677; best_merchant='10955001'
+2_dedup,merged,duplicate_sku,102738075,"Papia Bali Flower туалетная бумага 3-слойный 12 шт, первичная целлюлоза",2677,137,2 строк → 1; min_price=2677; best_merchant='10955001'
+2_dedup,merged,duplicate_sku,118701989,"Набор стаканов Yiwumart 260 мл, стекло, 6 шт",1388,257,2 строк → 1; min_price=1388; best_merchant='30179595'
+2_dedup,merged,duplicate_sku,118701989,"Набор стаканов Yiwumart 260 мл, стекло, 6 шт",1388,257,2 строк → 1; min_price=1388; best_merchant='30179595'
+2_dedup,merged,duplicate_sku,142355334,"Покрывало с наволочками Выпуклый 200х230 см, искусственный мех, серый",17999,46,2 строк → 1; min_price=17999; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,142355334,"Покрывало с наволочками Выпуклый 200х230 см, искусственный мех, серый",17999,46,2 строк → 1; min_price=17999; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,143251597,"Казан MasterShef 7.4 л, алюминий",16450,114,2 строк → 1; min_price=16450; best_merchant='10854001'
+2_dedup,merged,duplicate_sku,143251597,"Казан MasterShef 7.4 л, алюминий",16450,114,2 строк → 1; min_price=16450; best_merchant='10854001'
+2_dedup,merged,duplicate_sku,140590119,"Ершик Royal Touch стальная ручка белый, пластик, металл",3581,217,2 строк → 1; min_price=3581; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,140590119,"Ершик Royal Touch стальная ручка белый, пластик, металл",3581,217,2 строк → 1; min_price=3581; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,103262843,"Чайник TEA POT 61TERMO 1 л, стекло",998,1614,2 строк → 1; min_price=998; best_merchant='30455046'
+2_dedup,merged,duplicate_sku,103262843,"Чайник TEA POT 61TERMO 1 л, стекло",998,1614,2 строк → 1; min_price=998; best_merchant='30455046'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,18399,Δreviews=51 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2949,511,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3392,1807,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",1750,1155,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,973,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
