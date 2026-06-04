@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",374,18461,2 строк → 1; min_price=374; best_merchant='16597033'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",374,18461,2 строк → 1; min_price=374; best_merchant='16597033'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,470,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,470,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,140873062,Paclan Standart 30 л,510,47,2 строк → 1; min_price=510; best_merchant='30395078'
+2_dedup,merged,duplicate_sku,140873062,Paclan Standart 30 л,510,47,2 строк → 1; min_price=510; best_merchant='30395078'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,488,2 строк → 1; min_price=4988; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,488,2 строк → 1; min_price=4988; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105591633,Dunya Plast 000000000203 черный 10 шт,599,1957,2 строк → 1; min_price=599; best_merchant='30410677'
+2_dedup,merged,duplicate_sku,105591633,Dunya Plast 000000000203 черный 10 шт,599,1957,2 строк → 1; min_price=599; best_merchant='30410677'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",374,18461,Δreviews=62 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120089765,"Ортопедическая подушка NikStory 40x60 см, пена с памятью формы, пена с эффектом ",6200,1154,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,676,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2949,519,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,982,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400236,"Бассейн каркасный Bestway Steel Pro Max 56709, 366x366x100 см",85987,168,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
