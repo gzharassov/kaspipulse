@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4044,160,2 строк → 1; min_price=4044; best_merchant='14070008'
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4044,160,2 строк → 1; min_price=4044; best_merchant='14070008'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,18706,2 строк → 1; min_price=375; best_merchant='16597033'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,18706,2 строк → 1; min_price=375; best_merchant='16597033'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,472,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Santex тряпка 614166 3 шт, вискоза",475,472,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,18706,Δreviews=71 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,3027,563,Δreviews=11 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,4800,1039,Δreviews=19 > threshold=9 (Q3+3.0·IQR)
