@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,161,2 строк → 1; min_price=4000; best_merchant='14070008'
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,161,2 строк → 1; min_price=4000; best_merchant='14070008'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",372,19287,2 строк → 1; min_price=372; best_merchant='30447060'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",372,19287,2 строк → 1; min_price=372; best_merchant='30447060'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,473,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,473,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,6990,122,2 строк → 1; min_price=6990; best_merchant='30158749'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",372,19287,Δreviews=63 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3620,1881,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",35059,587,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",32342,558,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,113512891,Умное зеркало настенное 70x170 см,18987,645,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",67762,345,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",75666,241,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,9290,1192,Δreviews=21 > threshold=5 (Q3+3.0·IQR)
