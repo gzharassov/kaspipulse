@@ -1,0 +1,13 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,19574,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,19574,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",355,474,2 строк → 1; min_price=355; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",355,474,2 строк → 1; min_price=355; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,101191542,"Губка для посуды, универсальная Фрекен Бок Color 6 шт, поролон",820,63,2 строк → 1; min_price=820; best_merchant='30443788'
+2_dedup,merged,duplicate_sku,101191542,"Губка для посуды, универсальная Фрекен Бок Color 6 шт, поролон",820,63,2 строк → 1; min_price=820; best_merchant='30443788'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,19574,Δreviews=45 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",35700,639,Δreviews=10 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",33360,619,Δreviews=11 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",67900,403,Δreviews=13 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",74773,288,Δreviews=13 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114716236,ABC Whites and Colors Lavender Freshness 9 кг,9999,1278,Δreviews=18 > threshold=8 (Q3+3.0·IQR)
