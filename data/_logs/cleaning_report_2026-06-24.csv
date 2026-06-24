@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4008,167,2 строк → 1; min_price=4008; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4008,167,2 строк → 1; min_price=4008; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",446,19689,2 строк → 1; min_price=446; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",446,19689,2 строк → 1; min_price=446; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,476,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,476,2 строк → 1; min_price=475; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",446,19689,Δreviews=29 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,135155764,MasterShef MF-1044,10950,1072,Δreviews=7 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,135155941,"Сковорода MasterShef MF-1048 28 см с антипригарным покрытием, алюминий",13990,828,Δreviews=9 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2748,8116,Δreviews=9 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,141382354,"Триммер аккумуляторный BAINEX PowerGreen, нож",24990,275,Δreviews=7 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",37512,665,Δreviews=9 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35464,686,Δreviews=26 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",76341,437,Δreviews=14 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",77954,330,Δreviews=16 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400236,"Бассейн каркасный Bestway Steel Pro Max 56709, 366x366x100 см",91990,267,Δreviews=10 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",11024,991,Δreviews=8 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400012,"Бассейн каркасный Bestway Steel Pro Frame 56405, 400x211x81 см",55868,301,Δreviews=11 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,508,639,Δreviews=22 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400002,"Бассейн каркасный Bestway Steel Pro 56403, 259x170x61 см",31976,514,Δreviews=18 > threshold=6 (Q3+3.0·IQR)
