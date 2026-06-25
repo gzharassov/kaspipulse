@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,137881360,Средство для чистки духовок и плит «Сила цитрусов» 500 мл 0.5 кг,1000,165,2 строк → 1; min_price=1000; best_merchant='30455464'
+2_dedup,merged,duplicate_sku,137881360,Средство для чистки духовок и плит «Сила цитрусов» 500 мл 0.5 кг,1000,165,2 строк → 1; min_price=1000; best_merchant='30455464'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",370,19727,2 строк → 1; min_price=370; best_merchant='30467827'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",370,19727,2 строк → 1; min_price=370; best_merchant='30467827'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,476,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,476,2 строк → 1; min_price=399; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",370,19727,Δreviews=38 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2699,8128,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3414,1937,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35420,714,Δreviews=28 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",69990,447,Δreviews=10 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",77951,342,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",10895,1009,Δreviews=18 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400012,"Бассейн каркасный Bestway Steel Pro Frame 56405, 400x211x81 см",55868,313,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
