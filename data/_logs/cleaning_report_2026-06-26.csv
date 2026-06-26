@@ -1,0 +1,31 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,169,2 строк → 1; min_price=4000; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,169,2 строк → 1; min_price=4000; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,332,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,332,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",445,19761,2 строк → 1; min_price=445; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",445,19761,2 строк → 1; min_price=445; best_merchant='Atechnics'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,476,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,476,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108279024,"Салфетница 599765, металл",677,1115,2 строк → 1; min_price=677; best_merchant='17625538'
+2_dedup,merged,duplicate_sku,108279024,"Салфетница 599765, металл",677,1115,2 строк → 1; min_price=677; best_merchant='17625538'
+2_dedup,merged,duplicate_sku,132581582,"Портьеры Ева 200x280 см 2 шт, лен, белый, кремовый, айвори",20000,52,2 строк → 1; min_price=20000; best_merchant='18459243'
+2_dedup,merged,duplicate_sku,132581582,"Портьеры Ева 200x280 см 2 шт, лен, белый, кремовый, айвори",20000,52,2 строк → 1; min_price=20000; best_merchant='18459243'
+2_dedup,merged,duplicate_sku,120567772,"Клеенка Home Master 250x140 см, ПВХ, силикон, 1 шт",4745,126,2 строк → 1; min_price=4745; best_merchant='30337990'
+2_dedup,merged,duplicate_sku,120567772,"Клеенка Home Master 250x140 см, ПВХ, силикон, 1 шт",4745,126,2 строк → 1; min_price=4745; best_merchant='30337990'
+2_dedup,merged,duplicate_sku,113340401,"Подушка декоративная 40x40 см, 18282913_924909",1600,354,2 строк → 1; min_price=1600; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,113340401,"Подушка декоративная 40x40 см, 18282913_924909",1600,354,2 строк → 1; min_price=1600; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,134958457,"Блинная сковорода Granhel MIDO 24 см , сталь",19500,113,2 строк → 1; min_price=19500; best_merchant='403013'
+2_dedup,merged,duplicate_sku,134958457,"Блинная сковорода Granhel MIDO 24 см , сталь",19500,113,2 строк → 1; min_price=19500; best_merchant='403013'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,118,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,118,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,123795253,Одеяло Т-7792 150x200 зимнее,10450,63,2 строк → 1; min_price=10450; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,123795253,Одеяло Т-7792 150x200 зимнее,10450,63,2 строк → 1; min_price=10450; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,102792915,Бумажные салфетки Maolin Абстракция 20 шт,439,13,2 строк → 1; min_price=439; best_merchant='30449713'
+2_dedup,merged,duplicate_sku,102792915,Бумажные салфетки Maolin Абстракция 20 шт,439,13,2 строк → 1; min_price=439; best_merchant='30449713'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",445,19761,Δreviews=34 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",36276,739,Δreviews=25 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",77948,355,Δreviews=13 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",10887,1022,Δreviews=13 > threshold=9 (Q3+3.0·IQR)
