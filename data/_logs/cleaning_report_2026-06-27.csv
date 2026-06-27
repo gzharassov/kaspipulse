@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,170,2 строк → 1; min_price=4000; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,131455340,DREAME жидкое средство Моющее средство Multi-Surface Floor Cleaner AWH5 0.5 л,4000,170,2 строк → 1; min_price=4000; best_merchant='18710037'
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,332,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,332,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",369,19791,2 строк → 1; min_price=369; best_merchant='30467795'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",369,19791,2 строк → 1; min_price=369; best_merchant='30467795'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,764,2 строк → 1; min_price=40; best_merchant='30463164'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",369,19791,Δreviews=30 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2687,8147,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3599,1948,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",34998,692,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35985,763,Δreviews=24 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",77830,368,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",76341,459,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400002,"Бассейн каркасный Bestway Steel Pro 56403, 259x170x61 см",31311,554,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
