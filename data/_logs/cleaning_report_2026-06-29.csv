@@ -1,0 +1,13 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,477,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,477,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,120,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,120,2 строк → 1; min_price=4990; best_merchant='12338063'
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,510,693,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2687,8189,Δreviews=19 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,19879,Δreviews=50 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3698,1955,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35906,826,Δreviews=30 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,121851623,"Комплект для уборки универсальная, для пола, для стен Mika, материал насадки: ми",11990,1507,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",11000,1045,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400012,"Бассейн каркасный Bestway Steel Pro Frame 56405, 400x211x81 см",55868,343,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
