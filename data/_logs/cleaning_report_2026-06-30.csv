@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,335,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,117868917,Clean&Fresh таблетки Clean Fresh 200 шт 2000,6993,335,2 строк → 1; min_price=6993; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,19903,2 строк → 1; min_price=447; best_merchant='Megastorekz'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,19903,2 строк → 1; min_price=447; best_merchant='Megastorekz'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,767,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",40,767,2 строк → 1; min_price=40; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,4540,122,2 строк → 1; min_price=4540; best_merchant='30272567'
+2_dedup,merged,duplicate_sku,112663381,Clean&Fresh таблетки Lemon 20 г 60 шт,4540,122,2 строк → 1; min_price=4540; best_merchant='30272567'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,678,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,678,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,135315512,"Нож филейный MasterShef MF-1132, лезвие: дамасская сталь 1 шт",15500,71,2 строк → 1; min_price=15500; best_merchant='10854001'
+2_dedup,merged,duplicate_sku,135315512,"Нож филейный MasterShef MF-1132, лезвие: дамасская сталь 1 шт",15500,71,2 строк → 1; min_price=15500; best_merchant='10854001'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,19903,Δreviews=24 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,510,702,Δreviews=9 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2687,8219,Δreviews=30 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",35888,713,Δreviews=8 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35349,840,Δreviews=14 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",11000,1054,Δreviews=9 > threshold=7 (Q3+3.0·IQR)
