@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,19991,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,19991,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,682,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,682,2 строк → 1; min_price=990; best_merchant='15916448'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,19991,Δreviews=36 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2748,8250,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35136,884,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",11000,1069,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400012,"Бассейн каркасный Bestway Steel Pro Frame 56405, 400x211x81 см",55869,362,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
