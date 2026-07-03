@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20047,"2 строк → 1; min_price=447; best_merchant='16485730, Megastorekz'"
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20047,"2 строк → 1; min_price=447; best_merchant='16485730, Megastorekz'"
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,478,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,684,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,684,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,122,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,122,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,146325554,Умное зеркало настенное NAZARMIR 009 60x80 см,16500,154,2 строк → 1; min_price=16500; best_merchant='10042043'
+2_dedup,merged,duplicate_sku,146325554,Умное зеркало настенное NAZARMIR 009 60x80 см,16500,154,2 строк → 1; min_price=16500; best_merchant='10042043'
+2_dedup,merged,duplicate_sku,144041962,Зеркало напольное Element 50x160 см,13999,104,2 строк → 1; min_price=13999; best_merchant='18465614'
+2_dedup,merged,duplicate_sku,144041962,Зеркало напольное Element 50x160 см,13999,104,2 строк → 1; min_price=13999; best_merchant='18465614'
+2_dedup,merged,duplicate_sku,135646473,"Ковер Praga 300x500 см, короткий ворс, Турция",65000,12,2 строк → 1; min_price=65000; best_merchant='30467680'
+2_dedup,merged,duplicate_sku,135646473,"Ковер Praga 300x500 см, короткий ворс, Турция",65000,12,2 строк → 1; min_price=65000; best_merchant='30467680'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20047,Δreviews=56 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,1749,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,510,720,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2748,8267,Δreviews=17 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",36767,898,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",10995,1076,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
