@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,691,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,691,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1350,457,2 строк → 1; min_price=1350; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1350,457,2 строк → 1; min_price=1350; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,118598965,"Комплект 600x270 см 4 шт, бархат, бирюзовый, молочный",19973,163,2 строк → 1; min_price=19973; best_merchant='30321185'
+2_dedup,merged,duplicate_sku,118598965,"Комплект 600x270 см 4 шт, бархат, бирюзовый, молочный",19973,163,2 строк → 1; min_price=19973; best_merchant='30321185'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",379,20097,Δreviews=50 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,691,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,510,726,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2688,8283,Δreviews=16 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",37241,731,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",35062,906,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",75988,483,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
