@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20190,2 строк → 1; min_price=447; best_merchant='Megastorekz'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20190,2 строк → 1; min_price=447; best_merchant='Megastorekz'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,699,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,699,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,105216158,Бумажные полотенца PAPIRONE Premium 2 шт,850,371,2 строк → 1; min_price=850; best_merchant='Alemtires'
+2_dedup,merged,duplicate_sku,105216158,Бумажные полотенца PAPIRONE Premium 2 шт,850,371,2 строк → 1; min_price=850; best_merchant='Alemtires'
+2_dedup,merged,duplicate_sku,105722888,"Скатерть 250x140 см, ПВХ, 1 шт",13497,133,2 строк → 1; min_price=13497; best_merchant='30386278'
+2_dedup,merged,duplicate_sku,105722888,"Скатерть 250x140 см, ПВХ, 1 шт",13497,133,2 строк → 1; min_price=13497; best_merchant='30386278'
+6_outliers,flagged,abnormal_delta_reviews,103219046,Влажные салфетки Flovell Care Антибактериальный 15 шт,40,4681,Δreviews=20 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",447,20190,Δreviews=57 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2688,8304,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",36521,740,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",36708,921,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2100,1267,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
