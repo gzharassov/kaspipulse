@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",30,769,2 строк → 1; min_price=30; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",30,769,2 строк → 1; min_price=30; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,481,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1350,460,2 строк → 1; min_price=1350; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1350,460,2 строк → 1; min_price=1350; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,705,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,705,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+2_dedup,merged,duplicate_sku,121898075,Delonghi DLSC200 100,4990,124,2 строк → 1; min_price=4990; best_merchant='12338063'
+6_outliers,flagged,abnormal_delta_reviews,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,705,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2689,8312,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",350,20221,Δreviews=31 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,Гель для стирки 4You Свежесть сирени 5 л,3224,5554,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2098,1273,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
