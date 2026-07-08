@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",320,20262,2 строк → 1; min_price=320; best_merchant='30376386'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",320,20262,2 строк → 1; min_price=320; best_merchant='30376386'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,482,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",399,482,2 строк → 1; min_price=399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1299,461,2 строк → 1; min_price=1299; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1299,461,2 строк → 1; min_price=1299; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,710,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,151032267,"MILDOM органайзер универсальный мультиколор, 1 шт",990,710,2 строк → 1; min_price=990; best_merchant='15916448'
+2_dedup,merged,duplicate_sku,102792915,Бумажные салфетки Maolin Абстракция 20 шт,439,13,2 строк → 1; min_price=439; best_merchant='30449713'
+2_dedup,merged,duplicate_sku,102792915,Бумажные салфетки Maolin Абстракция 20 шт,439,13,2 строк → 1; min_price=439; best_merchant='30449713'
+2_dedup,merged,duplicate_sku,133594895,"Сковорода гриль Vertto 22 см , чугун",4990,205,2 строк → 1; min_price=4990; best_merchant='KidsRooms'
+2_dedup,merged,duplicate_sku,133594895,"Сковорода гриль Vertto 22 см , чугун",4990,205,2 строк → 1; min_price=4990; best_merchant='KidsRooms'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",320,20262,Δreviews=41 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,134958408,"Казан Granhel 5.9 л, сталь",35500,531,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2749,8323,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
