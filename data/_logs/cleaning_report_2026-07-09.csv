@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20302,2 строк → 1; min_price=400; best_merchant='16642070'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20302,2 строк → 1; min_price=400; best_merchant='16642070'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,482,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,482,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1299,462,2 строк → 1; min_price=1299; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1299,462,2 строк → 1; min_price=1299; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,115391401,Диффузор с палочками Parfum De Vie цветочные 165 мл,9900,160,2 строк → 1; min_price=9900; best_merchant='30023346'
+2_dedup,merged,duplicate_sku,115391401,Диффузор с палочками Parfum De Vie цветочные 165 мл,9900,160,2 строк → 1; min_price=9900; best_merchant='30023346'
+2_dedup,merged,duplicate_sku,123795129,"Комплект Лиора Сердечки 1-спальный муслин, 1 наволочка: 50x70 см",3643,441,2 строк → 1; min_price=3643; best_merchant='30354123'
+2_dedup,merged,duplicate_sku,123795129,"Комплект Лиора Сердечки 1-спальный муслин, 1 наволочка: 50x70 см",3643,441,2 строк → 1; min_price=3643; best_merchant='30354123'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20302,Δreviews=40 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105263329,"SH банка 84526, стекло, бамбук",1399,1490,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2649,8339,Δreviews=16 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",35887,748,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",10998,1095,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
