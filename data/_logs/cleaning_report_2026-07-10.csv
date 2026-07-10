@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",470,20340,2 строк → 1; min_price=470; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",470,20340,2 строк → 1; min_price=470; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,483,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,483,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,104183866,Wally Plastic перчатки 12345678909 L черный 100 шт,1490,295,2 строк → 1; min_price=1490; best_merchant='30347069'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4400,297,2 строк → 1; min_price=4400; best_merchant='30272567'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4400,297,2 строк → 1; min_price=4400; best_merchant='30272567'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1296,463,2 строк → 1; min_price=1296; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1296,463,2 строк → 1; min_price=1296; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,113613828,"Комплект TAC Still 1.5-спальный хлопок, 1 наволочка: 70x70 см",3792,86,2 строк → 1; min_price=3792; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,113613828,"Комплект TAC Still 1.5-спальный хлопок, 1 наволочка: 70x70 см",3792,86,2 строк → 1; min_price=3792; best_merchant='18278582'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,207,2 строк → 1; min_price=4989; best_merchant='15585029'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,207,2 строк → 1; min_price=4989; best_merchant='15585029'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",470,20340,Δreviews=38 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2739,8346,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",36090,754,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",10869,1106,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
