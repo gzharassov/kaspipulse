@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",473,20441,2 строк → 1; min_price=473; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",473,20441,2 строк → 1; min_price=473; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,465,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,465,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,110050085,"Подушка для беременных 38x70 см, полиэстер",3190,81,2 строк → 1; min_price=3190; best_merchant='15911369'
+2_dedup,merged,duplicate_sku,110050085,"Подушка для беременных 38x70 см, полиэстер",3190,81,2 строк → 1; min_price=3190; best_merchant='15911369'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",473,20441,Δreviews=33 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,111249144,"Подушка Aline Home 50x70 см, пух искусственный",1230,2836,Δreviews=15 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2639,8381,Δreviews=16 > threshold=7 (Q3+3.0·IQR)
