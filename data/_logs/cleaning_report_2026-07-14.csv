@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",458,20478,2 строк → 1; min_price=458; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",458,20478,2 строк → 1; min_price=458; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",33,771,2 строк → 1; min_price=33; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",33,771,2 строк → 1; min_price=33; best_merchant='30463164'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,465,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,465,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2081,94,2 строк → 1; min_price=2081; best_merchant='30424495'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2081,94,2 строк → 1; min_price=2081; best_merchant='30424495'
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1030,1020,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",458,20478,Δreviews=37 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508143,"Гель 4YOU Альпийская свежесть для машинной стирки, 5 л",2899,6372,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2617,8396,Δreviews=15 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",34988,959,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105263329,"SH банка 84526, стекло, бамбук",1589,1515,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
