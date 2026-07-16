@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",350,20536,2 строк → 1; min_price=350; best_merchant='4581003'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",350,20536,2 строк → 1; min_price=350; best_merchant='4581003'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,484,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,466,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,108077597,"Штора PRIMANOVA KB-01 180x180 белый, черный, серый, PEVA",1300,466,2 строк → 1; min_price=1300; best_merchant='30386556'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,331,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,331,2 строк → 1; min_price=414; best_merchant='30311102'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",350,20536,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2623,8449,Δreviews=29 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",34625,986,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2990,758,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2300,1316,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
