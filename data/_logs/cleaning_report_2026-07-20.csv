@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",427,20676,2 строк → 1; min_price=427; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",427,20676,2 строк → 1; min_price=427; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,486,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,486,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,333,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,333,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,140982502,"VELASCO масленка VS-KH-MASL-DER-001 круглая 1 шт, стекло",3490,254,2 строк → 1; min_price=3490; best_merchant='14157020'
+2_dedup,merged,duplicate_sku,140982502,"VELASCO масленка VS-KH-MASL-DER-001 круглая 1 шт, стекло",3490,254,2 строк → 1; min_price=3490; best_merchant='14157020'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",427,20676,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2551,8520,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101027555,"Бассейн каркасный Bestway 56677, 305x305x76 см",38774,1013,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",36738,808,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2499,1347,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189658,Стиральный порошок Ariel Lenor Effect автомат 3 кг,2885,254,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
