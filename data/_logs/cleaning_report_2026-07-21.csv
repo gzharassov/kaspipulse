@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,20708,2 строк → 1; min_price=380; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,20708,2 строк → 1; min_price=380; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,487,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,487,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,334,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,334,2 строк → 1; min_price=414; best_merchant='30311102'
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1030,1054,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",380,20708,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,119986692,Детские влажные салфетки Flovell Care Classic 120 Zelenye 120 шт,438,18518,Δreviews=22 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,1813,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2551,8534,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3599,2032,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",36740,824,Δreviews=16 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,121851623,"Комплект для уборки универсальная, для пола, для стен Mika, материал насадки: ми",10950,1568,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2499,1353,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400002,"Бассейн каркасный Bestway Steel Pro 56403, 259x170x61 см",31557,622,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
