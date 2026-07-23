@@ -1,0 +1,29 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20767,2 строк → 1; min_price=400; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20767,2 строк → 1; min_price=400; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,335,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,335,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,140873062,Paclan Standart 30 л,540,61,2 строк → 1; min_price=540; best_merchant='30395078'
+2_dedup,merged,duplicate_sku,140873062,Paclan Standart 30 л,540,61,2 строк → 1; min_price=540; best_merchant='30395078'
+2_dedup,merged,duplicate_sku,121438034,"Ортопедическая подушка Fit4you 42x65 см, полиэфир",6990,161,2 строк → 1; min_price=6990; best_merchant='7988000'
+2_dedup,merged,duplicate_sku,121438034,"Ортопедическая подушка Fit4you 42x65 см, полиэфир",6990,161,2 строк → 1; min_price=6990; best_merchant='7988000'
+2_dedup,merged,duplicate_sku,128696040,"Набор кухонных инструментов ZHOLTAY нержавеющая сталь, пластик, силикон, бамбук,",12990,105,2 строк → 1; min_price=12990; best_merchant='18776084'
+2_dedup,merged,duplicate_sku,128696040,"Набор кухонных инструментов ZHOLTAY нержавеющая сталь, пластик, силикон, бамбук,",12990,105,2 строк → 1; min_price=12990; best_merchant='18776084'
+2_dedup,merged,duplicate_sku,19300000,Гладильная доска напольная Braun 122x40 см,57755,532,2 строк → 1; min_price=57755; best_merchant='30427985'
+2_dedup,merged,duplicate_sku,19300000,Гладильная доска напольная Braun 122x40 см,57755,532,2 строк → 1; min_price=57755; best_merchant='30427985'
+2_dedup,merged,duplicate_sku,119420261,Кусковое мыло туалетное Safeguard Нежный уход Алоэ вера 90 г,649,101,2 строк → 1; min_price=649; best_merchant='18641934'
+2_dedup,merged,duplicate_sku,119420261,Кусковое мыло туалетное Safeguard Нежный уход Алоэ вера 90 г,649,101,2 строк → 1; min_price=649; best_merchant='18641934'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,212,2 строк → 1; min_price=4989; best_merchant='15585029'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,212,2 строк → 1; min_price=4989; best_merchant='15585029'
+2_dedup,merged,duplicate_sku,110050085,"Подушка для беременных 38x70 см, полиэстер",3190,82,2 строк → 1; min_price=3190; best_merchant='15911369'
+2_dedup,merged,duplicate_sku,110050085,"Подушка для беременных 38x70 см, полиэстер",3190,82,2 строк → 1; min_price=3190; best_merchant='15911369'
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1030,1069,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,20767,Δreviews=25 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2500,8579,Δreviews=24 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3480,2044,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400188,"Бассейн каркасный Intex 28200 NP, 305x305x76 см",36614,843,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",79078,452,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,121851623,"Комплект для уборки универсальная, для пола, для стен Mika, материал насадки: ми",10950,1579,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189658,Стиральный порошок Ariel Lenor Effect автомат 3 кг,3480,270,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
