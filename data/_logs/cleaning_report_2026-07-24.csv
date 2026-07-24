@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",420,20803,2 строк → 1; min_price=420; best_merchant='30443063'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",420,20803,2 строк → 1; min_price=420; best_merchant='30443063'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,335,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,335,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,113390910,Уличный светильник консольный Solar light 200 Вт 5 см,9186,48,2 строк → 1; min_price=9186; best_merchant='30120359'
+2_dedup,merged,duplicate_sku,113390910,Уличный светильник консольный Solar light 200 Вт 5 см,9186,48,2 строк → 1; min_price=9186; best_merchant='30120359'
+2_dedup,merged,duplicate_sku,122332805,"Schmidt & schwarz электрическая точилка Sch 1-3, синтетический алмаз",31990,72,2 строк → 1; min_price=31990; best_merchant='6883022'
+2_dedup,merged,duplicate_sku,122332805,"Schmidt & schwarz электрическая точилка Sch 1-3, синтетический алмаз",31990,72,2 строк → 1; min_price=31990; best_merchant='6883022'
+2_dedup,merged,duplicate_sku,123795129,"Комплект Лиора Сердечки 1-спальный муслин, 1 наволочка: 50x70 см",3644,446,2 строк → 1; min_price=3644; best_merchant='30440987'
+2_dedup,merged,duplicate_sku,123795129,"Комплект Лиора Сердечки 1-спальный муслин, 1 наволочка: 50x70 см",3644,446,2 строк → 1; min_price=3644; best_merchant='30440987'
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1030,1075,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",420,20803,Δreviews=36 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2305,8590,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120970085,"Химия для бассейна Мультитаб таблетки 1 кг,",1900,533,Δreviews=19 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3631,2050,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189658,Стиральный порошок Ariel Lenor Effect автомат 3 кг,2651,280,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
