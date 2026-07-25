@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",398,20860,2 строк → 1; min_price=398; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",398,20860,2 строк → 1; min_price=398; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,490,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1783,1016,2 строк → 1; min_price=1783; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1783,1016,2 строк → 1; min_price=1783; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,336,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",414,336,2 строк → 1; min_price=414; best_merchant='30311102'
+2_dedup,merged,duplicate_sku,27600262,"Бензиновый триммер 2900 Вт GGT-2900T Huter двухтактный, антивибрационная система",62490,60,2 строк → 1; min_price=62490; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,27600262,"Бензиновый триммер 2900 Вт GGT-2900T Huter двухтактный, антивибрационная система",62490,60,2 строк → 1; min_price=62490; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,172,2 строк → 1; min_price=505; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,172,2 строк → 1; min_price=505; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,117752195,Детские влажные салфетки Flovell Care Mini wet wipes Синие 64 шт,390,12141,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",398,20860,Δreviews=57 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2305,8605,Δreviews=15 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120970085,"Химия для бассейна Мультитаб таблетки 1 кг,",1900,556,Δreviews=23 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3467,2057,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103071194,Fairy жидкое FAIRY Сочный лимон средство для мытья посуды 0.9 л,1119,361,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",79099,460,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2450,1377,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
