@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,310,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,310,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",416,20929,2 строк → 1; min_price=416; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",416,20929,2 строк → 1; min_price=416; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,492,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,492,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,337,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,337,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,134054479,Смешанный набор Vertto WRT0205 20 в 1,39990,105,2 строк → 1; min_price=39990; best_merchant='KidsRooms'
+2_dedup,merged,duplicate_sku,134054479,Смешанный набор Vertto WRT0205 20 в 1,39990,105,2 строк → 1; min_price=39990; best_merchant='KidsRooms'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",416,20929,Δreviews=41 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2305,8649,Δreviews=26 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3458,2072,Δreviews=7 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2470,1391,Δreviews=7 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116937868,"Мойка высокого давления ALTECO электрический 120 бар, CPW 120-6 66878",36990,992,Δreviews=7 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,822,Δreviews=10 > threshold=6 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189658,Стиральный порошок Ariel Lenor Effect автомат 3 кг,3480,300,Δreviews=9 > threshold=6 (Q3+3.0·IQR)
