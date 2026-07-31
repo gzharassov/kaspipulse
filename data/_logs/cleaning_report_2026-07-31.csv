@@ -1,0 +1,20 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,311,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,311,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21095,"3 строк → 1; min_price=438; best_merchant='12650053, Ansar'"
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21095,"3 строк → 1; min_price=438; best_merchant='12650053, Ansar'"
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",440,21095,"3 строк → 1; min_price=438; best_merchant='12650053, Ansar'"
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,494,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,494,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1774,1030,2 строк → 1; min_price=1774; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1774,1030,2 строк → 1; min_price=1774; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,338,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,338,2 строк → 1; min_price=460; best_merchant='370014'
+6_outliers,flagged,abnormal_delta_reviews,103219046,Влажные салфетки Flovell Care Антибактериальный 15 шт,40,5084,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21095,Δreviews=49 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1050,1110,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,1852,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2250,8830,Δreviews=45 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2299,1421,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1350,1146,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189658,Стиральный порошок Ariel Lenor Effect автомат 3 кг,3284,322,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
