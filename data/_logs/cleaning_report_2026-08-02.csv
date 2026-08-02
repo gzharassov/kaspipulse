@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,312,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4699,312,2 строк → 1; min_price=4699; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21159,2 строк → 1; min_price=438; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21159,2 строк → 1; min_price=438; best_merchant='12650053'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,494,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,494,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,340,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,340,2 строк → 1; min_price=460; best_merchant='370014'
+6_outliers,flagged,abnormal_delta_reviews,117752195,Детские влажные салфетки Flovell Care Mini wet wipes Синие 64 шт,390,12245,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",438,21159,Δreviews=28 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103958889,"Maolin туалетная бумага 2 слоя, 10 шт",1050,1122,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2429,8910,Δreviews=42 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120970085,"Химия для бассейна Мультитаб таблетки 1 кг,",1900,677,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",8333,1189,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1398,1176,Δreviews=16 > threshold=5 (Q3+3.0·IQR)
