@@ -1,0 +1,23 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",384,21211,2 строк → 1; min_price=384; best_merchant='30447060'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",384,21211,2 строк → 1; min_price=384; best_merchant='30447060'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,495,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,495,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,340,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",460,340,2 строк → 1; min_price=460; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101118324,Грунт САМ СЕБЕ АГРОНОМ Универсальный 10 л,950,224,2 строк → 1; min_price=950; best_merchant='12514014'
+2_dedup,merged,duplicate_sku,101118324,Грунт САМ СЕБЕ АГРОНОМ Универсальный 10 л,950,224,2 строк → 1; min_price=950; best_merchant='12514014'
+2_dedup,merged,duplicate_sku,15400236,"Бассейн каркасный Bestway Steel Pro Max 56709, 366x366x100 см",82000,317,2 строк → 1; min_price=82000; best_merchant='30394166'
+2_dedup,merged,duplicate_sku,15400236,"Бассейн каркасный Bestway Steel Pro Max 56709, 366x366x100 см",82000,317,2 строк → 1; min_price=82000; best_merchant='30394166'
+2_dedup,merged,duplicate_sku,129511150,"Орхидея 36 см, Орхидея белая",7000,150,2 строк → 1; min_price=7000; best_merchant='30397124'
+2_dedup,merged,duplicate_sku,129511150,"Орхидея 36 см, Орхидея белая",7000,150,2 строк → 1; min_price=7000; best_merchant='30397124'
+2_dedup,merged,duplicate_sku,109947954,Диффузор с палочками Gamma D'ORO Апельсин 100 мл,3900,39,2 строк → 1; min_price=3900; best_merchant='17653280'
+2_dedup,merged,duplicate_sku,109947954,Диффузор с палочками Gamma D'ORO Апельсин 100 мл,3900,39,2 строк → 1; min_price=3900; best_merchant='17653280'
+2_dedup,merged,duplicate_sku,141869667,"Mercado комплект ковриков MR-5002-10 80x50 см, полиэстер, латекс",2555,491,2 строк → 1; min_price=2555; best_merchant='12015007'
+2_dedup,merged,duplicate_sku,141869667,"Mercado комплект ковриков MR-5002-10 80x50 см, полиэстер, латекс",2555,491,2 строк → 1; min_price=2555; best_merchant='12015007'
+6_outliers,flagged,abnormal_delta_reviews,117752195,Детские влажные салфетки Flovell Care Mini wet wipes Синие 64 шт,390,12279,Δreviews=15 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",384,21211,Δreviews=18 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,1875,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2308,9007,Δreviews=48 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",8246,1197,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1401,1216,Δreviews=19 > threshold=5 (Q3+3.0·IQR)
