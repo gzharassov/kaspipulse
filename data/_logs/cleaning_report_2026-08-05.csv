@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4799,313,2 строк → 1; min_price=4799; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,116191761,DIWASH таблетки 332094 2000 г 100 шт,4799,313,2 строк → 1; min_price=4799; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,495,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,495,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,103593022,Овальная фитобочка одноместная Новосибирский Кедровый Завод 100x78x130 см,488007,23,2 строк → 1; min_price=488007; best_merchant='30414197'
+2_dedup,merged,duplicate_sku,103593022,Овальная фитобочка одноместная Новосибирский Кедровый Завод 100x78x130 см,488007,23,2 строк → 1; min_price=488007; best_merchant='30414197'
+6_outliers,flagged,abnormal_delta_reviews,116427365,Стиральный порошок Ariel Color автомат 15 кг,13861,450,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",415,21247,Δreviews=36 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2389,9050,Δreviews=43 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112423965,Салфетки PAPIRONE Premium 150 шт,394,826,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,121851623,"Комплект для уборки универсальная, для пола, для стен Mika, материал насадки: ми",10950,1626,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2196,1449,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1418,1249,Δreviews=33 > threshold=5 (Q3+3.0·IQR)
