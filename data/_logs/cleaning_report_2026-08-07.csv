@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,829,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,829,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,149483003,"Набор контейнеров Glass Set 12 pcs, стекло",12500,53,2 строк → 1; min_price=12500; best_merchant='30352358'
+2_dedup,merged,duplicate_sku,149483003,"Набор контейнеров Glass Set 12 pcs, стекло",12500,53,2 строк → 1; min_price=12500; best_merchant='30352358'
+2_dedup,merged,duplicate_sku,110687499,"Паровая сауна Sakura-01, водонепроницаемая ткань",24560,53,2 строк → 1; min_price=24560; best_merchant='16644064'
+2_dedup,merged,duplicate_sku,110687499,"Паровая сауна Sakura-01, водонепроницаемая ткань",24560,53,2 строк → 1; min_price=24560; best_merchant='16644064'
+2_dedup,merged,duplicate_sku,17900347,"Электрогенератор 5 кВт 220В БГ 6500 Р Ресанта бензиновый 4-х тактный двигатель, ",250490,13,2 строк → 1; min_price=250490; best_merchant='858003'
+2_dedup,merged,duplicate_sku,17900347,"Электрогенератор 5 кВт 220В БГ 6500 Р Ресанта бензиновый 4-х тактный двигатель, ",250490,13,2 строк → 1; min_price=250490; best_merchant='858003'
+2_dedup,merged,duplicate_sku,107597890,"Тюль 400x270 см 1 шт, сетка, белый",3099,2191,2 строк → 1; min_price=3099; best_merchant='30211135'
+2_dedup,merged,duplicate_sku,107597890,"Тюль 400x270 см 1 шт, сетка, белый",3099,2191,2 строк → 1; min_price=3099; best_merchant='30211135'
+6_outliers,flagged,abnormal_delta_reviews,116709630,"Пищевая пленка 216181907 для фруктов и овощей, для хранения продуктов, универсал",185,2753,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",409,21299,Δreviews=27 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2369,9122,Δreviews=38 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2613,678,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120970085,"Химия для бассейна Мультитаб таблетки 1 кг,",1900,732,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2499,1460,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1415,1293,Δreviews=21 > threshold=5 (Q3+3.0·IQR)
