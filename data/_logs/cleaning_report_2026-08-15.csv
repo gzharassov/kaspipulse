@@ -1,0 +1,31 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,853,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,853,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,104642475,Диффузор с палочками Eyfel вишня 120 мл,1999,132,2 строк → 1; min_price=1999; best_merchant='30305207'
+2_dedup,merged,duplicate_sku,104642475,Диффузор с палочками Eyfel вишня 120 мл,1999,132,2 строк → 1; min_price=1999; best_merchant='30305207'
+2_dedup,merged,duplicate_sku,101178551,"Qualita бумага для выпечки, для хранения продуктов 15 листов",885,190,2 строк → 1; min_price=885; best_merchant='Multivarkapro'
+2_dedup,merged,duplicate_sku,101178551,"Qualita бумага для выпечки, для хранения продуктов 15 листов",885,190,2 строк → 1; min_price=885; best_merchant='Multivarkapro'
+2_dedup,merged,duplicate_sku,100162628,Стиральный порошок Tide Color автомат 3 кг,2997,184,2 строк → 1; min_price=2997; best_merchant='30317854'
+2_dedup,merged,duplicate_sku,100162628,Стиральный порошок Tide Color автомат 3 кг,2997,184,2 строк → 1; min_price=2997; best_merchant='30317854'
+2_dedup,merged,duplicate_sku,112998829,"Диффузор с палочками Parfum De Vie Цветочный, ароматный 165 мл",9900,112,2 строк → 1; min_price=9900; best_merchant='11199007'
+2_dedup,merged,duplicate_sku,112998829,"Диффузор с палочками Parfum De Vie Цветочный, ароматный 165 мл",9900,112,2 строк → 1; min_price=9900; best_merchant='11199007'
+2_dedup,merged,duplicate_sku,137028296,"Портьеры IL NUR House 150x270 см 2 шт, велюр, бронзовый",8500,50,2 строк → 1; min_price=8500; best_merchant='10039002'
+2_dedup,merged,duplicate_sku,137028296,"Портьеры IL NUR House 150x270 см 2 шт, велюр, бронзовый",8500,50,2 строк → 1; min_price=8500; best_merchant='10039002'
+2_dedup,merged,duplicate_sku,135305864,"Коврик для выпечки, для запекания, для пиццы, для нарезания теста ZOYYA силикон,",2390,584,2 строк → 1; min_price=2390; best_merchant='18152780'
+2_dedup,merged,duplicate_sku,135305864,"Коврик для выпечки, для запекания, для пиццы, для нарезания теста ZOYYA силикон,",2390,584,2 строк → 1; min_price=2390; best_merchant='18152780'
+2_dedup,merged,duplicate_sku,135767158,"Диффузор с палочками Eyfel Ангел – нежный, слегка пудровый, с цветочными и муску",1298,119,2 строк → 1; min_price=1298; best_merchant='30305207'
+2_dedup,merged,duplicate_sku,135767158,"Диффузор с палочками Eyfel Ангел – нежный, слегка пудровый, с цветочными и муску",1298,119,2 строк → 1; min_price=1298; best_merchant='30305207'
+2_dedup,merged,duplicate_sku,122135742,"BEK TRUSTED ONLINE STOR by Bekzatov набор органайзеров для обуви белый, 30 шт",9690,59,2 строк → 1; min_price=9690; best_merchant='30260476'
+2_dedup,merged,duplicate_sku,122135742,"BEK TRUSTED ONLINE STOR by Bekzatov набор органайзеров для обуви белый, 30 шт",9690,59,2 строк → 1; min_price=9690; best_merchant='30260476'
+2_dedup,merged,duplicate_sku,131773769,Парус ТНВД Д-240 МТЗ ТНВД 4УТНИ-1111005-20,168236,10,2 строк → 1; min_price=168236; best_merchant='30440472'
+2_dedup,merged,duplicate_sku,131773769,Парус ТНВД Д-240 МТЗ ТНВД 4УТНИ-1111005-20,168236,10,2 строк → 1; min_price=168236; best_merchant='30440472'
+2_dedup,merged,duplicate_sku,100505373,"Гель для мытья посуды Synergetic, антибактериальное гипоаллергенное средство с а",1106,150,2 строк → 1; min_price=1106; best_merchant='15920178'
+2_dedup,merged,duplicate_sku,100505373,"Гель для мытья посуды Synergetic, антибактериальное гипоаллергенное средство с а",1106,150,2 строк → 1; min_price=1106; best_merchant='15920178'
+2_dedup,merged,duplicate_sku,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2207,1654,2 строк → 1; min_price=2207; best_merchant='30465654'
+2_dedup,merged,duplicate_sku,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2207,1654,2 строк → 1; min_price=2207; best_merchant='30465654'
+2_dedup,merged,duplicate_sku,100188988,"Glade аэрозоль Пион и сочные ягоды 300 мл для ванной и туалетной комнаты, интерь",1065,102,2 строк → 1; min_price=1065; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100188988,"Glade аэрозоль Пион и сочные ягоды 300 мл для ванной и туалетной комнаты, интерь",1065,102,2 строк → 1; min_price=1065; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3399,2154,Δreviews=8 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",401,21664,Δreviews=62 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2320,9403,Δreviews=40 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1412,1483,Δreviews=22 > threshold=7 (Q3+3.0·IQR)
