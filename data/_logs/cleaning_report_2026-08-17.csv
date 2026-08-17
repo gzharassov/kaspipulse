@@ -1,0 +1,22 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,857,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,857,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,124025142,Капсулы Капсулы для стирки Bafuri 0.3 36 шт,1460,2070,2 строк → 1; min_price=1460; best_merchant='30285241'
+2_dedup,merged,duplicate_sku,124025142,Капсулы Капсулы для стирки Bafuri 0.3 36 шт,1460,2070,2 строк → 1; min_price=1460; best_merchant='30285241'
+2_dedup,merged,duplicate_sku,102212881,Туран Инвест Пласт 25x38 200 шт,678,318,2 строк → 1; min_price=678; best_merchant='30464539'
+2_dedup,merged,duplicate_sku,102212881,Туран Инвест Пласт 25x38 200 шт,678,318,2 строк → 1; min_price=678; best_merchant='30464539'
+2_dedup,merged,duplicate_sku,112360466,"Полка для ванной без сверления, черная",1994,1281,2 строк → 1; min_price=1994; best_merchant='1335001'
+2_dedup,merged,duplicate_sku,112360466,"Полка для ванной без сверления, черная",1994,1281,2 строк → 1; min_price=1994; best_merchant='1335001'
+2_dedup,merged,duplicate_sku,135872448,"Набор контейнеров Cubo, боросиликатное стекло, бамбук",4997,94,2 строк → 1; min_price=4997; best_merchant='30378030'
+2_dedup,merged,duplicate_sku,135872448,"Набор контейнеров Cubo, боросиликатное стекло, бамбук",4997,94,2 строк → 1; min_price=4997; best_merchant='30378030'
+2_dedup,merged,duplicate_sku,137902967,Aquapulse набор для капельного полива Капельный полив AQUAPULSE 10x10,11800,54,2 строк → 1; min_price=11800; best_merchant='30460147'
+2_dedup,merged,duplicate_sku,137902967,Aquapulse набор для капельного полива Капельный полив AQUAPULSE 10x10,11800,54,2 строк → 1; min_price=11800; best_merchant='30460147'
+2_dedup,merged,duplicate_sku,114842673,Одеяло 22315 200x220 зимнее,14198,51,2 строк → 1; min_price=14198; best_merchant='30327187'
+2_dedup,merged,duplicate_sku,114842673,Одеяло 22315 200x220 зимнее,14198,51,2 строк → 1; min_price=14198; best_merchant='30327187'
+2_dedup,merged,duplicate_sku,15400002,"Бассейн каркасный Bestway Steel Pro 56403, 259x170x61 см",29999,652,2 строк → 1; min_price=29999; best_merchant='16903208'
+2_dedup,merged,duplicate_sku,15400002,"Бассейн каркасный Bestway Steel Pro 56403, 259x170x61 см",29999,652,2 строк → 1; min_price=29999; best_merchant='16903208'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1681,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2328,9486,Δreviews=50 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",401,21772,Δreviews=59 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,Гель для стирки 4You Свежесть сирени 5 л,3224,5694,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1299,1526,Δreviews=25 > threshold=5 (Q3+3.0·IQR)
