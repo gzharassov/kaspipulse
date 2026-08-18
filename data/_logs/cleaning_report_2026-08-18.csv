@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,858,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,858,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,105696287,Гель Domestos Максимальная защита Лимонная свежесть 0.75 л,1390,111,2 строк → 1; min_price=1390; best_merchant='14729018'
+2_dedup,merged,duplicate_sku,105696287,Гель Domestos Максимальная защита Лимонная свежесть 0.75 л,1390,111,2 строк → 1; min_price=1390; best_merchant='14729018'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2079,100,2 строк → 1; min_price=2079; best_merchant='30424495'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2079,100,2 строк → 1; min_price=2079; best_merchant='30424495'
+2_dedup,merged,duplicate_sku,116210608,Органайзер для моющих средств Пластик 23x9 см,1175,207,2 строк → 1; min_price=1175; best_merchant='30469117'
+2_dedup,merged,duplicate_sku,116210608,Органайзер для моющих средств Пластик 23x9 см,1175,207,2 строк → 1; min_price=1175; best_merchant='30469117'
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3450,2167,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1689,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,21830,Δreviews=58 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2317,9522,Δreviews=36 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,141367022,"Люстра на штанге SADDY E27, кол-во ламп: 2 шт",1780,508,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,121851623,"Комплект для уборки универсальная, для пола, для стен Mika, материал насадки: ми",11990,1668,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1299,1548,Δreviews=22 > threshold=5 (Q3+3.0·IQR)
