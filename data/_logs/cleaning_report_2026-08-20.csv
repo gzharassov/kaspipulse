@@ -1,0 +1,26 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,864,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,864,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,121402631,"Комплект Korea Line 2-спальный страйп-сатин, 2 наволочки: 55x80 см",7680,85,2 строк → 1; min_price=7680; best_merchant='30438781'
+2_dedup,merged,duplicate_sku,121402631,"Комплект Korea Line 2-спальный страйп-сатин, 2 наволочки: 55x80 см",7680,85,2 строк → 1; min_price=7680; best_merchant='30438781'
+2_dedup,merged,duplicate_sku,106168691,"Familia Rainbow White 2-слойный 4 шт, первичная целлюлоза",599,150,2 строк → 1; min_price=599; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106168691,"Familia Rainbow White 2-слойный 4 шт, первичная целлюлоза",599,150,2 строк → 1; min_price=599; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,135916944,Зеркало настенное VELASCO 40x40 см,4990,262,2 строк → 1; min_price=4990; best_merchant='14157020'
+2_dedup,merged,duplicate_sku,135916944,Зеркало настенное VELASCO 40x40 см,4990,262,2 строк → 1; min_price=4990; best_merchant='14157020'
+2_dedup,merged,duplicate_sku,100096572,Huter МК-9500P-10 70/5/16,336490,10,2 строк → 1; min_price=336490; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,100096572,Huter МК-9500P-10 70/5/16,336490,10,2 строк → 1; min_price=336490; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,123210160,"Ортопедическая подушка 50x70 см, перо",7200,93,2 строк → 1; min_price=7200; best_merchant='30291741'
+2_dedup,merged,duplicate_sku,123210160,"Ортопедическая подушка 50x70 см, перо",7200,93,2 строк → 1; min_price=7200; best_merchant='30291741'
+2_dedup,merged,duplicate_sku,136864373,"Бассейн каркасный Bestway 561KJ, 956x488x132 см",630556,1,2 строк → 1; min_price=630556; best_merchant='30388275'
+2_dedup,merged,duplicate_sku,136864373,"Бассейн каркасный Bestway 561KJ, 956x488x132 см",630656,1,2 строк → 1; min_price=630556; best_merchant='30388275'
+2_dedup,merged,duplicate_sku,19300000,Гладильная доска напольная Braun 122x40 см,63990,552,2 строк → 1; min_price=63990; best_merchant='30427985'
+2_dedup,merged,duplicate_sku,19300000,Гладильная доска напольная Braun 122x40 см,63990,552,2 строк → 1; min_price=63990; best_merchant='30427985'
+2_dedup,merged,duplicate_sku,105263329,"SH банка 84526, стекло, бамбук",1998,1550,2 строк → 1; min_price=1998; best_merchant='6319040'
+2_dedup,merged,duplicate_sku,105263329,"SH банка 84526, стекло, бамбук",1998,1550,2 строк → 1; min_price=1998; best_merchant='6319040'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,649,76,2 строк → 1; min_price=649; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,649,76,2 строк → 1; min_price=649; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1706,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,1950,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",417,21956,Δreviews=67 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2326,9616,Δreviews=41 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1299,1574,Δreviews=16 > threshold=5 (Q3+3.0·IQR)
