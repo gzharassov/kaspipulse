@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,869,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,869,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,103071194,Средство для мытья посуды Fairy сочный лимон 900 мл,1429,402,2 строк → 1; min_price=1429; best_merchant='30081553'
+2_dedup,merged,duplicate_sku,103071194,Средство для мытья посуды Fairy сочный лимон 900 мл,1429,402,2 строк → 1; min_price=1429; best_merchant='30081553'
+2_dedup,merged,duplicate_sku,120567772,"Клеенка Home Master 250x140 см, ПВХ, силикон, 1 шт",4745,155,2 строк → 1; min_price=4745; best_merchant='30337990'
+2_dedup,merged,duplicate_sku,120567772,"Клеенка Home Master 250x140 см, ПВХ, силикон, 1 шт",4745,155,2 строк → 1; min_price=4745; best_merchant='30337990'
+2_dedup,merged,duplicate_sku,102141330,СТИРОЛПЛАСТ стакан 400-1000-50/7 прозрачный 50 шт,2200,104,2 строк → 1; min_price=2200; best_merchant='30310021'
+2_dedup,merged,duplicate_sku,102141330,СТИРОЛПЛАСТ стакан 400-1000-50/7 прозрачный 50 шт,2200,104,2 строк → 1; min_price=2200; best_merchant='30310021'
+2_dedup,merged,duplicate_sku,128584746,"Мантоварка 10 л, Granhel Stainless steel 18/10 нержавеющая сталь, количество яру",95200,71,2 строк → 1; min_price=95200; best_merchant='403013'
+2_dedup,merged,duplicate_sku,128584746,"Мантоварка 10 л, Granhel Stainless steel 18/10 нержавеющая сталь, количество яру",95200,71,2 строк → 1; min_price=95200; best_merchant='403013'
+2_dedup,merged,duplicate_sku,130445235,"Декоративная свеча HOME 890 20 см, 4 шт",1578,123,2 строк → 1; min_price=1578; best_merchant='30441488'
+2_dedup,merged,duplicate_sku,130445235,"Декоративная свеча HOME 890 20 см, 4 шт",1578,123,2 строк → 1; min_price=1578; best_merchant='30441488'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",401,22029,Δreviews=73 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2317,9646,Δreviews=30 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2871,739,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,135675595,"Набор ножей MasterShef MF-1114, лезвие: сталь 6 шт",14500,314,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1299,1582,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105591633,Набор вешалок Dunya Plast 000000000203 черный 10 шт,599,2069,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
