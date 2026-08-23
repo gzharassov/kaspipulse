@@ -1,0 +1,11 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,874,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,874,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,113613396,"Комплект Sagynysh 600x275 см 4 шт, сетка, велюр, белый, бежевый, серый",16782,121,2 строк → 1; min_price=16780; best_merchant='30443438'
+2_dedup,merged,duplicate_sku,113613396,"Комплект Sagynysh 600x275 см 4 шт, сетка, велюр, белый, бежевый, серый",16780,121,2 строк → 1; min_price=16780; best_merchant='30443438'
+2_dedup,merged,duplicate_sku,110011433,"Шланг для полива Aquapolymer 30 м, 18 мм",27100,59,2 строк → 1; min_price=27100; best_merchant='17609012'
+2_dedup,merged,duplicate_sku,110011433,"Шланг для полива Aquapolymer 30 м, 18 мм",27100,59,2 строк → 1; min_price=27100; best_merchant='17609012'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",401,22133,Δreviews=47 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2300,9713,Δreviews=26 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2900,751,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1299,1598,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
