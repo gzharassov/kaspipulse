@@ -1,0 +1,19 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,879,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,879,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,101102565,Гель Domestos Максимальная защита свежесть атлантики 750 мл,1397,203,2 строк → 1; min_price=1397; best_merchant='14729018'
+2_dedup,merged,duplicate_sku,101102565,Гель Domestos Максимальная защита свежесть атлантики 750 мл,1397,203,2 строк → 1; min_price=1397; best_merchant='14729018'
+2_dedup,merged,duplicate_sku,109300158,"Скатерть 450x165 см, искусственная кожа, 1 шт",18899,119,2 строк → 1; min_price=18899; best_merchant='30368756'
+2_dedup,merged,duplicate_sku,109300158,"Скатерть 450x165 см, искусственная кожа, 1 шт",18899,119,2 строк → 1; min_price=18899; best_merchant='30368756'
+2_dedup,merged,duplicate_sku,134409692,"LOVE туалетная бумага 5-слойный 12 шт, первичная целлюлоза",1650,250,2 строк → 1; min_price=1650; best_merchant='30427783'
+2_dedup,merged,duplicate_sku,134409692,"LOVE туалетная бумага 5-слойный 12 шт, первичная целлюлоза",1650,250,2 строк → 1; min_price=1650; best_merchant='30427783'
+2_dedup,merged,duplicate_sku,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",74049,467,2 строк → 1; min_price=74049; best_merchant='16903208'
+2_dedup,merged,duplicate_sku,15400142,"Бассейн каркасный Bestway Steel Pro Max 56418, 366x366x100 см",74049,467,2 строк → 1; min_price=74049; best_merchant='16903208'
+2_dedup,merged,duplicate_sku,27600117,Триммер электрический Huter GET-1500SL 1500 Вт ширина кошения 42 см леска/нож ра,42890,108,2 строк → 1; min_price=42890; best_merchant='30449734'
+2_dedup,merged,duplicate_sku,27600117,Триммер электрический Huter GET-1500SL 1500 Вт ширина кошения 42 см леска/нож ра,42890,108,2 строк → 1; min_price=42890; best_merchant='30449734'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,649,76,2 строк → 1; min_price=649; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,649,76,2 строк → 1; min_price=649; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1730,Δreviews=10 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",401,22186,Δreviews=53 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2320,9753,Δreviews=40 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1400,1609,Δreviews=11 > threshold=8 (Q3+3.0·IQR)
