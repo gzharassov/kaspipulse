@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,880,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,880,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,124215244,Детские влажные салфетки Mello Jumbo Pack 128 шт,1220,309,2 строк → 1; min_price=1220; best_merchant='TEHG'
+2_dedup,merged,duplicate_sku,124215244,Детские влажные салфетки Mello Jumbo Pack 128 шт,1220,309,2 строк → 1; min_price=1220; best_merchant='TEHG'
+2_dedup,merged,duplicate_sku,101062030,Таблетки для посудомоечных машин Synergetic бесфосфатные в водорастворимой пленк,5933,151,2 строк → 1; min_price=5933; best_merchant='30303277'
+2_dedup,merged,duplicate_sku,101062030,Таблетки для посудомоечных машин Synergetic бесфосфатные в водорастворимой пленк,5933,151,2 строк → 1; min_price=5933; best_merchant='30303277'
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1499,497,2 строк → 1; min_price=1499; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1499,497,2 строк → 1; min_price=1499; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,117223683,"Home Collection чехол для стула 555424 белый, серый высота спинки до 60 см; шири",1205,889,2 строк → 1; min_price=1205; best_merchant='30362804'
+2_dedup,merged,duplicate_sku,117223683,"Home Collection чехол для стула 555424 белый, серый высота спинки до 60 см; шири",1205,889,2 строк → 1; min_price=1205; best_merchant='30362804'
+2_dedup,merged,duplicate_sku,108907762,"Люстра потолочная Империя света LED, кол-во ламп: 12 шт",28000,59,2 строк → 1; min_price=28000; best_merchant='15374009'
+2_dedup,merged,duplicate_sku,108907762,"Люстра потолочная Империя света LED, кол-во ламп: 12 шт",28000,59,2 строк → 1; min_price=28000; best_merchant='15374009'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1740,Δreviews=10 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",419,22247,Δreviews=61 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2311,9789,Δreviews=36 > threshold=9 (Q3+3.0·IQR)
