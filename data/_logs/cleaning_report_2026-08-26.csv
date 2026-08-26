@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,883,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,883,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,124215244,Детские влажные салфетки Mello Jumbo Pack 128 шт,1220,310,2 строк → 1; min_price=1220; best_merchant='TEHG'
+2_dedup,merged,duplicate_sku,124215244,Детские влажные салфетки Mello Jumbo Pack 128 шт,1220,310,2 строк → 1; min_price=1220; best_merchant='TEHG'
+2_dedup,merged,duplicate_sku,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,825,2 строк → 1; min_price=2490; best_merchant='15430319'
+2_dedup,merged,duplicate_sku,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,825,2 строк → 1; min_price=2490; best_merchant='15430319'
+2_dedup,merged,duplicate_sku,103302313,"Покрывало с наволочками GARDINES 240х260 см, жаккард, серый",34936,49,2 строк → 1; min_price=34936; best_merchant='30368605'
+2_dedup,merged,duplicate_sku,103302313,"Покрывало с наволочками GARDINES 240х260 см, жаккард, серый",34936,49,2 строк → 1; min_price=34936; best_merchant='30368605'
+2_dedup,merged,duplicate_sku,131136120,"Подушка TAKE 50x70 см, синтетическое волокно, силиконизированное волокно",2240,488,2 строк → 1; min_price=2240; best_merchant='1702000'
+2_dedup,merged,duplicate_sku,131136120,"Подушка TAKE 50x70 см, синтетическое волокно, силиконизированное волокно",2240,488,2 строк → 1; min_price=2240; best_merchant='1702000'
+2_dedup,merged,duplicate_sku,129054428,Набор кастрюль Elamina 10 в 1,95000,24,2 строк → 1; min_price=95000; best_merchant='30450112'
+2_dedup,merged,duplicate_sku,129054428,Набор кастрюль Elamina 10 в 1,95000,24,2 строк → 1; min_price=95000; best_merchant='30450112'
+2_dedup,merged,duplicate_sku,118506578,Одеяло Askona Elso 200х200 всесезонное,12999,72,2 строк → 1; min_price=12999; best_merchant='Askona'
+2_dedup,merged,duplicate_sku,118506578,Одеяло Askona Elso 200х200 всесезонное,12999,72,2 строк → 1; min_price=12999; best_merchant='Askona'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",544,1753,Δreviews=13 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22311,Δreviews=64 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2302,9822,Δreviews=33 > threshold=9 (Q3+3.0·IQR)
