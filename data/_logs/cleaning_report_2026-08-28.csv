@@ -1,0 +1,22 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22514,2 строк → 1; min_price=400; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22514,2 строк → 1; min_price=400; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,507,2 строк → 1; min_price=359; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,507,2 строк → 1; min_price=359; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107856181,"Прожектор консольный, на кронштейне LED 100 Вт, холодный белый",4558,93,2 строк → 1; min_price=4558; best_merchant='30396703'
+2_dedup,merged,duplicate_sku,107856181,"Прожектор консольный, на кронштейне LED 100 Вт, холодный белый",4558,93,2 строк → 1; min_price=4558; best_merchant='30396703'
+2_dedup,merged,duplicate_sku,100218990,Tide Аква-пудра для чувствительной кожи 6 кг,6399,171,2 строк → 1; min_price=6399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100218990,Tide Аква-пудра для чувствительной кожи 6 кг,6399,171,2 строк → 1; min_price=6399; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,143237437,"Зеркало настенное, настольное Miline ALFrame 70x70 см",15900,127,2 строк → 1; min_price=15900; best_merchant='9818048'
+2_dedup,merged,duplicate_sku,143237437,"Зеркало настенное, настольное Miline ALFrame 70x70 см",15900,127,2 строк → 1; min_price=15900; best_merchant='9818048'
+2_dedup,merged,duplicate_sku,123599041,"Чехол для верхней одежды 13880011_872159158, полиэтиленвинилацетат",4985,114,2 строк → 1; min_price=4985; best_merchant='17966322'
+2_dedup,merged,duplicate_sku,123599041,"Чехол для верхней одежды 13880011_872159158, полиэтиленвинилацетат",4985,114,2 строк → 1; min_price=4985; best_merchant='17966322'
+2_dedup,merged,duplicate_sku,138652603,"Подушка NikStory 50x70 см, файбер",1390,971,2 строк → 1; min_price=1390; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,138652603,"Подушка NikStory 50x70 см, файбер",1390,971,2 строк → 1; min_price=1390; best_merchant='30295472'
+6_outliers,flagged,abnormal_delta_reviews,108829928,"HOME пакет 5932 для фруктов и овощей, для хранения продуктов",150,4141,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22514,Δreviews=63 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,896,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2320,9948,Δreviews=50 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,536,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1390,1649,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,971,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
