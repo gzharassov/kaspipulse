@@ -1,0 +1,9 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",395,22558,2 строк → 1; min_price=395; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",395,22558,2 строк → 1; min_price=395; best_merchant='960061'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,508,2 строк → 1; min_price=359; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,508,2 строк → 1; min_price=359; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,133571928,Влажные салфетки Flovell Care Fruits 15 шт белый,19,12936,Δreviews=51 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",395,22558,Δreviews=44 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,117752195,Детские влажные салфетки Flovell Care Mini wet wipes Синие 64 шт,390,12649,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2326,9965,Δreviews=17 > threshold=5 (Q3+3.0·IQR)
