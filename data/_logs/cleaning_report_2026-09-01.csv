@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22779,2 строк → 1; min_price=400; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22779,2 строк → 1; min_price=400; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",74,798,2 строк → 1; min_price=74; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",74,798,2 строк → 1; min_price=74; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,511,2 строк → 1; min_price=359; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",359,511,2 строк → 1; min_price=359; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1779,1062,2 строк → 1; min_price=1779; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1779,1062,2 строк → 1; min_price=1779; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,119094405,"Тюль EVA 500x275 см 1 шт, лен, серый",8696,235,2 строк → 1; min_price=8696; best_merchant='30321185'
+2_dedup,merged,duplicate_sku,119094405,"Тюль EVA 500x275 см 1 шт, лен, серый",8696,235,2 строк → 1; min_price=8696; best_merchant='30321185'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,627,2 строк → 1; min_price=4988; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,627,2 строк → 1; min_price=4988; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",400,22779,Δreviews=53 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2329,10047,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1400,1677,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
