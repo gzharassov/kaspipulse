@@ -1,0 +1,28 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,23045,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,23045,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1063,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1063,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,122535863,Набор вешалок 78824107766441 черный 10 шт,994,842,2 строк → 1; min_price=994; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,122535863,Набор вешалок 78824107766441 черный 10 шт,994,842,2 строк → 1; min_price=994; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,123148335,"Скатерть 150x150 см, тефлон, 1 шт",4969,206,2 строк → 1; min_price=4969; best_merchant='30378964'
+2_dedup,merged,duplicate_sku,123148335,"Скатерть 150x150 см, тефлон, 1 шт",4969,206,2 строк → 1; min_price=4969; best_merchant='30378964'
+2_dedup,merged,duplicate_sku,128696040,"Набор кухонных инструментов ZHOLTAY нержавеющая сталь, пластик, силикон, бамбук,",12990,114,2 строк → 1; min_price=12990; best_merchant='18776084'
+2_dedup,merged,duplicate_sku,128696040,"Набор кухонных инструментов ZHOLTAY нержавеющая сталь, пластик, силикон, бамбук,",12990,114,2 строк → 1; min_price=12990; best_merchant='18776084'
+2_dedup,merged,duplicate_sku,101886268,Кусторез Huter GET-3.6,11090,197,2 строк → 1; min_price=11090; best_merchant='30409806'
+2_dedup,merged,duplicate_sku,101886268,Кусторез Huter GET-3.6,11090,197,2 строк → 1; min_price=11090; best_merchant='30409806'
+2_dedup,merged,duplicate_sku,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2205,1714,2 строк → 1; min_price=2205; best_merchant='30021366'
+2_dedup,merged,duplicate_sku,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2205,1713,2 строк → 1; min_price=2205; best_merchant='30021366'
+2_dedup,merged,duplicate_sku,110836928,"Ланч-бокс L231 3 шт, пластик, силикон",2385,1188,2 строк → 1; min_price=2385; best_merchant='6319040'
+2_dedup,merged,duplicate_sku,110836928,"Ланч-бокс L231 3 шт, пластик, силикон",2385,1188,2 строк → 1; min_price=2385; best_merchant='6319040'
+6_outliers,flagged,abnormal_delta_reviews,102175971,"Влажные салфетки Flovell Care 120 шт, розовые",375,23045,Δreviews=110 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,119986692,Детские влажные салфетки Flovell Care Classic 120 Zelenye 120 шт,415,20566,Δreviews=68 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,994,842,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,927,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2330,10149,Δreviews=26 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1400,1700,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1993,1025,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
