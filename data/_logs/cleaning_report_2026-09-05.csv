@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,388,23142,"2 строк → 1; min_price=388; best_merchant='30454665, 960061'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,401,23142,"2 строк → 1; min_price=388; best_merchant='30454665, 960061'"
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1065,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1065,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,931,2 строк → 1; min_price=1590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142513353,"Подушка NikStory 50x70 см, файбер",1590,931,2 строк → 1; min_price=1590; best_merchant='30295472'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,388,23142,Δreviews=97 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,119986692,Салфетки влажные Flovell Care Classic зеленые 120 шт,401,20619,Δreviews=53 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2390,10189,Δreviews=40 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,935,858,Δreviews=16 > threshold=9 (Q3+3.0·IQR)
