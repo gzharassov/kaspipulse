@@ -1,0 +1,20 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,375,23233,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,375,23233,2 строк → 1; min_price=375; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",66,798,2 строк → 1; min_price=66; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",66,798,2 строк → 1; min_price=66; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1067,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1765,1067,2 строк → 1; min_price=1765; best_merchant='30471067'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PRACTI UNIVERSAL 5 шт, поролон",519,345,2 строк → 1; min_price=519; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,122535863,Набор вешалок 78824107766441 черный 10 шт,994,881,2 строк → 1; min_price=994; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,122535863,Набор вешалок 78824107766441 черный 10 шт,994,881,2 строк → 1; min_price=994; best_merchant='30455426'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,375,23233,Δreviews=91 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,994,881,Δreviews=23 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,2042,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2390,10233,Δreviews=44 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,Гель для стирки 4You Свежесть сирени 5 л,3224,5749,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105216158,Бумажные полотенца PAPIRONE Premium 2 шт,799,443,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,134661294,"Кастрюля 2.7 л, MasterShef MF-1004 нержавеющая сталь",5999,436,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
