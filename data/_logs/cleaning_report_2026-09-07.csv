@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,401,23332,2 строк → 1; min_price=401; best_merchant='30454665'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,401,23332,2 строк → 1; min_price=401; best_merchant='30454665'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,516,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,401,23332,Δreviews=99 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,2054,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2489,10280,Δreviews=47 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1500,1712,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,935,896,Δreviews=15 > threshold=5 (Q3+3.0·IQR)
