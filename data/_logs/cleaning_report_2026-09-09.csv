@@ -1,0 +1,13 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,385,23506,2 строк → 1; min_price=385; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,385,23506,2 строк → 1; min_price=385; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",47,800,2 строк → 1; min_price=47; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",47,800,2 строк → 1; min_price=47; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,517,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,517,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,935,933,Δreviews=23 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,2075,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2435,10353,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,949,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
