@@ -1,0 +1,20 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,517,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,517,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,106945476,Wally Plastic набор Нитрил черный 100 шт,1320,134,2 строк → 1; min_price=1320; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,637,2 строк → 1; min_price=3590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,637,2 строк → 1; min_price=3590; best_merchant='30295472'
+2_dedup,merged,duplicate_sku,142504411,"Комплект Floresan 280x180 см 3 шт, жаккард, серый",7665,111,2 строк → 1; min_price=7665; best_merchant='18215353'
+2_dedup,merged,duplicate_sku,142504411,"Комплект Floresan 280x180 см 3 шт, жаккард, серый",7665,111,2 строк → 1; min_price=7665; best_merchant='18215353'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,640,2 строк → 1; min_price=4988; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100078454,"Сменный модуль Аквафор А5, комплект 2 шт.",4988,640,2 строк → 1; min_price=4988; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,133773114,Дивандек для дивана 30340432_747735549 бежевый 4 м на 90 см,12985,61,2 строк → 1; min_price=12985; best_merchant='30143059'
+2_dedup,merged,duplicate_sku,133773114,Дивандек для дивана 30340432_747735549 бежевый 4 м на 90 см,12985,61,2 строк → 1; min_price=12985; best_merchant='30143059'
+2_dedup,merged,duplicate_sku,109714197,"Краска краска белый, Москвичи",3380,283,2 строк → 1; min_price=3380; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,109714197,"Краска краска белый, Москвичи",3380,283,2 строк → 1; min_price=3380; best_merchant='13647015'
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,956,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл, нержавеющая сталь",2888,2081,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2429,10397,Δreviews=44 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,387,23600,Δreviews=94 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,935,945,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
