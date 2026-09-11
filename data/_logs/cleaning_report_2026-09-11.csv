@@ -1,0 +1,13 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,397,23702,2 строк → 1; min_price=397; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,397,23702,2 строк → 1; min_price=397; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,518,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,518,2 строк → 1; min_price=475; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,397,23702,Δreviews=102 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,106551869,"Перчатки Kevlar armored - 5-6 уровень серый, мультиколор 1 шт",950,272,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,963,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2435,10442,Δreviews=45 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108117078,"Органайзер для игрушек 50x40x50 см, текстиль",500,1721,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,648,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1061,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,122535863,Набор вешалок 78824107766441 черный 10 шт,1168,956,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
