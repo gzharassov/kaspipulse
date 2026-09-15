@@ -1,0 +1,11 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,24115,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,24116,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",38,802,2 строк → 1; min_price=38; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,115160978,"Тряпка для посуды, для сантехники, для стеклокерамики, для фруктов и овощей, уни",38,802,2 строк → 1; min_price=38; best_merchant='15842029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,523,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,523,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,108611835,"Сервиз на 6 персон Katherina Золотая отводка, предметов: 32, чайно-столовый, кер",20229,1590,2 строк → 1; min_price=20229; best_merchant='30424494'
+2_dedup,merged,duplicate_sku,108611835,"Сервиз на 6 персон Katherina Золотая отводка, предметов: 32, чайно-столовый, кер",20229,1590,2 строк → 1; min_price=20229; best_merchant='30424494'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,24115,Δreviews=109 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2790,10575,Δreviews=28 > threshold=9 (Q3+3.0·IQR)
