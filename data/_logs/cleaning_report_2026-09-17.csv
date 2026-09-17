@@ -1,0 +1,4 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,524,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,524,2 строк → 1; min_price=475; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2198,1780,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
