@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,362,24230,2 строк → 1; min_price=362; best_merchant='30467048'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,362,24230,2 строк → 1; min_price=362; best_merchant='30467048'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,524,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,524,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,889,2 строк → 1; min_price=2490; best_merchant='15430319'
+2_dedup,merged,duplicate_sku,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,889,2 строк → 1; min_price=2490; best_merchant='15430319'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,362,24230,Δreviews=89 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,135155764,"Сковорода MasterShef Гранит 24 см с антипригарным покрытием, алюминий",9990,1281,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2800,10640,Δreviews=29 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,889,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2198,1789,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
