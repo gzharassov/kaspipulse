@@ -1,0 +1,11 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,404,24303,2 строк → 1; min_price=404; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,404,24303,2 строк → 1; min_price=404; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",445,525,2 строк → 1; min_price=445; best_merchant='30335021'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",445,525,2 строк → 1; min_price=445; best_merchant='30335021'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1850,1041,2 строк → 1; min_price=1850; best_merchant='30368699'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1850,1041,2 строк → 1; min_price=1850; best_merchant='30368699'
+6_outliers,flagged,abnormal_delta_reviews,108829928,"HOME пакет 5932 для фруктов и овощей, для хранения продуктов",184,4179,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,404,24303,Δreviews=73 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2950,10672,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2490,895,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
