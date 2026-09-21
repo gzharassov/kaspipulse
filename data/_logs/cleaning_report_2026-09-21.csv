@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,418,24466,2 строк → 1; min_price=418; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,418,24466,2 строк → 1; min_price=418; best_merchant='960061'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,526,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,526,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1788,1042,2 строк → 1; min_price=1788; best_merchant='30368699'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1788,1042,2 строк → 1; min_price=1788; best_merchant='30368699'
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1499,518,"2 строк → 1; min_price=1424; best_merchant='16369055, 30305207'"
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1424,518,"2 строк → 1; min_price=1424; best_merchant='16369055, 30305207'"
+6_outliers,flagged,abnormal_delta_reviews,108829928,"HOME пакет 5932 для фруктов и овощей, для хранения продуктов",184,4195,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,418,24466,Δreviews=83 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл",2888,2112,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2989,10708,Δreviews=18 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,123242632,"STL Сушилка для обуви антибактериальная, с ультрафиолетом белый",4200,581,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112939584,"Набор мисок 504475 26х26 см, нержавеющая сталь, 4 шт",2495,1815,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
