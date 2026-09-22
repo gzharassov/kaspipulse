@@ -1,0 +1,6 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,527,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,527,2 строк → 1; min_price=475; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,135155764,"Сковорода MasterShef Гранит 24 см с антипригарным покрытием, алюминий",9990,1305,Δreviews=9 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",3000,10723,Δreviews=15 > threshold=8 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,369,24536,Δreviews=70 > threshold=8 (Q3+3.0·IQR)
