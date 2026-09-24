@@ -1,0 +1,10 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,332,24692,2 строк → 1; min_price=332; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,332,24692,2 строк → 1; min_price=332; best_merchant='15849029'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",400,528,2 строк → 1; min_price=400; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",400,528,2 строк → 1; min_price=400; best_merchant='30463752'
+6_outliers,flagged,abnormal_delta_reviews,108829928,"HOME пакет 5932 для фруктов и овощей, для хранения продуктов",184,4214,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,332,24692,Δreviews=78 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл",2888,2127,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2985,10770,Δreviews=25 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,100189591,"Порошок детский для стирки Ушастый Нянь 2,4 кг",3300,944,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
