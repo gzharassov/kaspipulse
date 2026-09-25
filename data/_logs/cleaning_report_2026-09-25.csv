@@ -1,0 +1,24 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,529,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,529,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1910,1043,2 строк → 1; min_price=1910; best_merchant='30472445'
+2_dedup,merged,duplicate_sku,104962569,"Карина туалетная бумага 2-слойный 12 шт, первичная целлюлоза",1910,1043,2 строк → 1; min_price=1910; best_merchant='30472445'
+2_dedup,merged,duplicate_sku,119596942,"Кокон 96x95x200 см, Макс. нагрузка: 120 кг",54990,132,2 строк → 1; min_price=54990; best_merchant='30461431'
+2_dedup,merged,duplicate_sku,119596942,"Кокон 96x95x200 см, Макс. нагрузка: 120 кг",54990,132,2 строк → 1; min_price=54990; best_merchant='30461431'
+2_dedup,merged,duplicate_sku,107460071,"Набор полотенец Туркменский текстиль 70x40 см, хлопок, махровая ткань, 3 шт,",1500,537,2 строк → 1; min_price=1500; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,107460071,"Набор полотенец Туркменский текстиль 70x40 см, хлопок, махровая ткань, 3 шт,",1500,537,2 строк → 1; min_price=1500; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,27600211,Газонокосилка самоходная бензиновая Huter GLM-6.0ST 70/3/7,195990,22,2 строк → 1; min_price=195990; best_merchant='858003'
+2_dedup,merged,duplicate_sku,27600211,Газонокосилка самоходная бензиновая Huter GLM-6.0ST 70/3/7,195990,22,2 строк → 1; min_price=195990; best_merchant='858003'
+2_dedup,merged,duplicate_sku,106434690,"Тульский Самовар самовар Банка 8547845 8 л, пластик, латунь",114473,86,2 строк → 1; min_price=114473; best_merchant='30467348'
+2_dedup,merged,duplicate_sku,106434690,"Тульский Самовар самовар Банка 8547845 8 л, пластик, латунь",114473,86,2 строк → 1; min_price=114473; best_merchant='30467348'
+2_dedup,merged,duplicate_sku,108118105,"Набор полотенец Туркменский текстиль 70x140 см, хлопок, 5 шт,",7800,337,2 строк → 1; min_price=7800; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,108118105,"Набор полотенец Туркменский текстиль 70x140 см, хлопок, 5 шт,",7800,337,2 строк → 1; min_price=7800; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,106636593,Крем чистящий Cif Max Effect Ультра Уайт 450 мл,1329,91,2 строк → 1; min_price=1329; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106636593,Крем чистящий Cif Max Effect Ультра Уайт 450 мл,1329,91,2 строк → 1; min_price=1329; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,143886758,Веник с совком LUNEX CleanPro 90 см,2994,139,2 строк → 1; min_price=2994; best_merchant='30301730'
+2_dedup,merged,duplicate_sku,143886758,Веник с совком LUNEX CleanPro 90 см,2994,139,2 строк → 1; min_price=2994; best_merchant='30301730'
+2_dedup,merged,duplicate_sku,109319840,Мистерия тарелка D205-219мм белый 10 шт,499,17,2 строк → 1; min_price=499; best_merchant='30428785'
+2_dedup,merged,duplicate_sku,109319840,Мистерия тарелка D205-219мм белый 10 шт,499,17,2 строк → 1; min_price=499; best_merchant='30428785'
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2985,10783,Δreviews=13 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,339,24769,Δreviews=77 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103071194,Средство для мытья посуды Fairy сочный лимон 900 мл,1055,441,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
