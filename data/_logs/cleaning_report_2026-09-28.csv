@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,367,25005,2 строк → 1; min_price=367; best_merchant='522013'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,367,25005,2 строк → 1; min_price=367; best_merchant='522013'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,531,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,531,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,105,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,105,2 строк → 1; min_price=1290; best_merchant='30433821'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,367,25005,Δreviews=78 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,120089765,"Ортопедическая подушка NikStory 40x60 см, пена с памятью формы, пена с эффектом ",6200,1654,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл",2888,2145,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2814,10806,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,132811234,"NikStory наматрасник на резинке Бамбук 160x200, микрофибра, бамбук",5200,429,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,740,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,132799781,"NikStory наматрасник на резинке Бамбук Бамбук 90x200, микрофибра, бамбук",3300,575,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
