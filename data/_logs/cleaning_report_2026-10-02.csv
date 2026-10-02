@@ -1,0 +1,22 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,379,25320,2 строк → 1; min_price=379; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,379,25320,2 строк → 1; min_price=379; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,117721055,"Комплект кухонный Базовая коллекция 626176322 4 шт, бязь, дак",6900,561,2 строк → 1; min_price=6900; best_merchant='30305129'
+2_dedup,merged,duplicate_sku,117721055,"Комплект кухонный Базовая коллекция 626176322 4 шт, бязь, дак",6900,561,2 строк → 1; min_price=6900; best_merchant='30305129'
+2_dedup,merged,duplicate_sku,137708918,"Ортопедическая подушка-сиденье LARKO 30x40 см, пенополиуретан, мемориформ, пена ",11999,398,2 строк → 1; min_price=11999; best_merchant='17629423'
+2_dedup,merged,duplicate_sku,137708918,"Ортопедическая подушка-сиденье LARKO 30x40 см, пенополиуретан, мемориформ, пена ",11999,398,2 строк → 1; min_price=11999; best_merchant='17629423'
+2_dedup,merged,duplicate_sku,138446557,Биоактиватор Sendora Для септиков и выгребных ям 5 л,9997,105,2 строк → 1; min_price=9997; best_merchant='30399237'
+2_dedup,merged,duplicate_sku,138446557,Биоактиватор Sendora Для септиков и выгребных ям 5 л,9997,105,2 строк → 1; min_price=9997; best_merchant='30399237'
+2_dedup,merged,duplicate_sku,142771774,Зеркало настенное Miline MixKrugly 60x60 см,13900,251,2 строк → 1; min_price=13900; best_merchant='9818048'
+2_dedup,merged,duplicate_sku,142771774,Зеркало настенное Miline MixKrugly 60x60 см,13900,251,2 строк → 1; min_price=13900; best_merchant='9818048'
+2_dedup,merged,duplicate_sku,123599041,"Чехол для верхней одежды 13880011_872159158, полиэтиленвинилацетат",4499,122,2 строк → 1; min_price=4499; best_merchant='13579007'
+2_dedup,merged,duplicate_sku,123599041,"Чехол для верхней одежды 13880011_872159158, полиэтиленвинилацетат",4499,122,2 строк → 1; min_price=4499; best_merchant='13579007'
+2_dedup,merged,duplicate_sku,105565773,"Мягкое мыло банное Рецепты бабушки Агафьи 37 трав Черное Деготь, травы 1 шт",2099,191,2 строк → 1; min_price=2099; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,105565773,"Мягкое мыло банное Рецепты бабушки Агафьи 37 трав Черное Деготь, травы 1 шт",2099,191,2 строк → 1; min_price=2099; best_merchant='13647015'
+2_dedup,merged,duplicate_sku,113740841,Одеяло Витас 597746 150x200 зимнее,3761,976,2 строк → 1; min_price=3761; best_merchant='17506715'
+2_dedup,merged,duplicate_sku,113740841,Одеяло Витас 597746 150x200 зимнее,3761,976,2 строк → 1; min_price=3761; best_merchant='17506715'
+6_outliers,flagged,abnormal_delta_reviews,112640978,"Набор органайзеров для нижнего белья белый, серый, 6 шт",1952,1748,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,379,25320,Δreviews=76 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1148,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
