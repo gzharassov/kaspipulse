@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,399,25588,2 строк → 1; min_price=399; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,399,25588,2 строк → 1; min_price=399; best_merchant='4096001'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,17900047,"Электрогенератор 0.65 кВт 220В HT950A Huter бензиновый 2-х тактный двигатель, ма",64490,69,2 строк → 1; min_price=64490; best_merchant='30403983'
+2_dedup,merged,duplicate_sku,17900047,"Электрогенератор 0.65 кВт 220В HT950A Huter бензиновый 2-х тактный двигатель, ма",64490,69,2 строк → 1; min_price=64490; best_merchant='30403983'
+2_dedup,merged,duplicate_sku,112421066,"Сушилка напольная HAUSLER 60x171x117 см, кол-во уровней: 1, металл",16631,115,2 строк → 1; min_price=16631; best_merchant='13651083'
+2_dedup,merged,duplicate_sku,112421066,"Сушилка напольная HAUSLER 60x171x117 см, кол-во уровней: 1, металл",16631,115,2 строк → 1; min_price=16631; best_merchant='13651083'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,399,25588,Δreviews=91 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,1030,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,4YOU Гель для стирки Свежесть сирени 5 литров,3224,5804,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,777,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1170,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,141869667,"Mercado комплект ковриков MR-5002-10 80x50 см, полиэстер, латекс",2555,630,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
