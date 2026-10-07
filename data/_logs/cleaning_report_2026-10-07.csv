@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,25764,3 строк → 1; min_price=392; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,25764,3 строк → 1; min_price=392; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,25764,3 строк → 1; min_price=392; best_merchant='960061'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,128877330,"Занавеска 100x210 см 1 шт, полиэстер, серый",4320,72,2 строк → 1; min_price=4320; best_merchant='15911369'
+2_dedup,merged,duplicate_sku,128877330,"Занавеска 100x210 см 1 шт, полиэстер, серый",4320,72,2 строк → 1; min_price=4320; best_merchant='15911369'
+6_outliers,flagged,abnormal_delta_reviews,103219104,Влажные салфетки Flovell Care очищающие Б/З 15 шт синий,10,12314,Δreviews=71 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,25764,Δreviews=91 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107453352,Влажные салфетки Flovell Care Fruits 15 шт жёлтый,10,15323,Δreviews=70 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2753,829,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,53400014,Картридж Аквафор В5 В100-5 3 шт,6380,773,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103809470,"Ортопедическая подушка Здоровый сон 50x70 см, латекс, пена с памятью формы",2764,2224,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1184,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
