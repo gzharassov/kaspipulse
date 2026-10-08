@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,25849,"3 строк → 1; min_price=397; best_merchant='30214695, 960061'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,25849,"3 строк → 1; min_price=397; best_merchant='30214695, 960061'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,397,25849,"3 строк → 1; min_price=397; best_merchant='30214695, 960061'"
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,122704482,"Набор ножей Shogun 199101, лезвие: дамасская сталь 14 шт",57990,90,2 строк → 1; min_price=57990; best_merchant='30023571'
+2_dedup,merged,duplicate_sku,122704482,"Набор ножей Shogun 199101, лезвие: дамасская сталь 14 шт",57990,90,2 строк → 1; min_price=57990; best_merchant='30023571'
+2_dedup,merged,duplicate_sku,128584746,"Мантоварка 10 л, Granhel Stainless steel 18/10 нержавеющая сталь, количество яру",95200,76,2 строк → 1; min_price=95200; best_merchant='403013'
+2_dedup,merged,duplicate_sku,128584746,"Мантоварка 10 л, Granhel Stainless steel 18/10 нержавеющая сталь, количество яру",95200,76,2 строк → 1; min_price=95200; best_merchant='403013'
+2_dedup,merged,duplicate_sku,108986753,"Люстра потолочная LED, кол-во ламп: 6 шт",8949,1174,2 строк → 1; min_price=8949; best_merchant='30432380'
+2_dedup,merged,duplicate_sku,108986753,"Люстра потолочная LED, кол-во ламп: 6 шт",8949,1174,2 строк → 1; min_price=8949; best_merchant='30432380'
+2_dedup,merged,duplicate_sku,106636593,Крем чистящий Cif Max Effect Ультра Уайт 450 мл,1771,93,2 строк → 1; min_price=1771; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,106636593,Крем чистящий Cif Max Effect Ультра Уайт 450 мл,1771,93,2 строк → 1; min_price=1771; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,109206907,"Зенетар полка 4499 1 шт, пластик",9208,81,2 строк → 1; min_price=9208; best_merchant='30473048'
+2_dedup,merged,duplicate_sku,109206907,"Зенетар полка 4499 1 шт, пластик",9208,81,2 строк → 1; min_price=9208; best_merchant='30473048'
+6_outliers,flagged,abnormal_delta_reviews,113091770,Салфетки влажные Tomiko детские 120 шт,1299,1482,Δreviews=14 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,397,25849,Δreviews=85 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107453352,Влажные салфетки Flovell Care Fruits 15 шт жёлтый,10,15419,Δreviews=96 > threshold=9 (Q3+3.0·IQR)
