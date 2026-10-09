@@ -1,0 +1,27 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,395,25958,2 строк → 1; min_price=395; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,395,25958,2 строк → 1; min_price=395; best_merchant='960061'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,533,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,106,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,118902877,"ProfFero держатель для туалетной бумаги П25069 1 шт, металл",3900,260,2 строк → 1; min_price=3900; best_merchant='30426527'
+2_dedup,merged,duplicate_sku,118902877,"ProfFero держатель для туалетной бумаги П25069 1 шт, металл",3900,260,2 строк → 1; min_price=3900; best_merchant='30426527'
+2_dedup,merged,duplicate_sku,101118303,"Paclan Мешки для мусора Premium с тесьмой 35 л, 15 шт",1184,91,2 строк → 1; min_price=1184; best_merchant='370014'
+2_dedup,merged,duplicate_sku,101118303,"Paclan Мешки для мусора Premium с тесьмой 35 л, 15 шт",1184,91,2 строк → 1; min_price=1184; best_merchant='370014'
+2_dedup,merged,duplicate_sku,115149528,"Гель для стирки Persil для белых/светлых тканей Свежесть от Vernel 1,04 л",3500,310,2 строк → 1; min_price=3500; best_merchant='30358660'
+2_dedup,merged,duplicate_sku,115149528,"Гель для стирки Persil для белых/светлых тканей Свежесть от Vernel 1,04 л",3500,310,2 строк → 1; min_price=3500; best_merchant='30358660'
+2_dedup,merged,duplicate_sku,137280205,Триммер аккумуляторный риммер для травы с комплектом насадок Аккумуляторный трим,7033,224,2 строк → 1; min_price=7033; best_merchant='30393981'
+2_dedup,merged,duplicate_sku,137280205,Триммер аккумуляторный риммер для травы с комплектом насадок Аккумуляторный трим,7033,224,2 строк → 1; min_price=7033; best_merchant='30393981'
+2_dedup,merged,duplicate_sku,108539431,"Тюль AB store home 300x270 см 1 шт, сетка, белый",2664,1811,2 строк → 1; min_price=2664; best_merchant='13261006'
+2_dedup,merged,duplicate_sku,108539431,"Тюль AB store home 300x270 см 1 шт, сетка, белый",2664,1811,2 строк → 1; min_price=2664; best_merchant='13261006'
+2_dedup,merged,duplicate_sku,109967871,"Триммер электрический 21В 9022, нож",7095,1279,2 строк → 1; min_price=7095; best_merchant='30324839'
+2_dedup,merged,duplicate_sku,109967871,"Триммер электрический 21В 9022, нож",7095,1279,2 строк → 1; min_price=7095; best_merchant='30324839'
+2_dedup,merged,duplicate_sku,130627205,"Роза, осока 16 см, 30137069_816815354",1575,369,2 строк → 1; min_price=1575; best_merchant='30422239'
+2_dedup,merged,duplicate_sku,130627205,"Роза, осока 16 см, 30137069_816815354",1575,369,2 строк → 1; min_price=1575; best_merchant='30422239'
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1589,525,2 строк → 1; min_price=1589; best_merchant='16369055'
+2_dedup,merged,duplicate_sku,110497351,"Полотенце Туркменский текстиль 140x70 см, махровая ткань, 1 шт,",1589,525,2 строк → 1; min_price=1589; best_merchant='16369055'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,395,25958,Δreviews=109 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107453352,Влажные салфетки Flovell Care Fruits 15 шт жёлтый,10,15506,Δreviews=87 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2753,845,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1200,Δreviews=11 > threshold=9 (Q3+3.0·IQR)
