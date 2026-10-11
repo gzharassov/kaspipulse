@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,534,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,534,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",445,352,2 строк → 1; min_price=445; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",445,352,2 строк → 1; min_price=445; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,142648468,"Покрывало с наволочками 240х260 см, хлопок, айвори",14590,132,2 строк → 1; min_price=14590; best_merchant='30428944'
+2_dedup,merged,duplicate_sku,142648468,"Покрывало с наволочками 240х260 см, хлопок, айвори",14590,132,2 строк → 1; min_price=14590; best_merchant='30428944'
+2_dedup,merged,duplicate_sku,119711538,"Сушилка напольная Nika 53.5x177x111.5 см, кол-во уровней: 1, металл",6884,569,2 строк → 1; min_price=6884; best_merchant='Tiin'
+2_dedup,merged,duplicate_sku,119711538,"Сушилка напольная Nika 53.5x177x111.5 см, кол-во уровней: 1, металл",6884,569,2 строк → 1; min_price=6884; best_merchant='Tiin'
+2_dedup,merged,duplicate_sku,142663206,Таз таз складной для путешествий 17.7 л,3798,162,2 строк → 1; min_price=3798; best_merchant='30459818'
+2_dedup,merged,duplicate_sku,142663206,Таз таз складной для путешествий 17.7 л,3798,162,2 строк → 1; min_price=3798; best_merchant='30459818'
+2_dedup,merged,duplicate_sku,110397736,1807 240 л,700,138,2 строк → 1; min_price=700; best_merchant='30421937'
+2_dedup,merged,duplicate_sku,110397736,1807 240 л,700,138,2 строк → 1; min_price=700; best_merchant='30421937'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,435,85,2 строк → 1; min_price=435; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,116716128,Кусковое мыло туалетное BioMio Aromatherapy Лаванда и жасмин 90 г,435,85,2 строк → 1; min_price=435; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,107529846,Влажные салфетки Flovell Care очищающие Б/З 15 шт розовый,10,12488,Δreviews=102 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,393,26170,Δreviews=111 > threshold=9 (Q3+3.0·IQR)
