@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,534,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,534,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",445,352,2 строк → 1; min_price=445; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",445,352,2 строк → 1; min_price=445; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",72980,521,2 строк → 1; min_price=72980; best_merchant='Aquaintex'
+2_dedup,merged,duplicate_sku,100269359,"Бассейн каркасный Bestway 56260, 366x366x100 см",72980,521,2 строк → 1; min_price=72980; best_merchant='Aquaintex'
+2_dedup,merged,duplicate_sku,101833618,"Копилка для денег HAPPY KID Сейф, пластик",3083,226,2 строк → 1; min_price=3083; best_merchant='30347281'
+2_dedup,merged,duplicate_sku,101833618,"Копилка для денег HAPPY KID Сейф, пластик",3083,226,2 строк → 1; min_price=3083; best_merchant='30347281'
+2_dedup,merged,duplicate_sku,40000012,Фильтр-насос Bestway FlowClear песочный 5678 л/ч,47988,240,2 строк → 1; min_price=47988; best_merchant='16903208'
+2_dedup,merged,duplicate_sku,40000012,Фильтр-насос Bestway FlowClear песочный 5678 л/ч,47988,240,2 строк → 1; min_price=47988; best_merchant='16903208'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,415,26263,Δreviews=93 > threshold=9 (Q3+3.0·IQR)
