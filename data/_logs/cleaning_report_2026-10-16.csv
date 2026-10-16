@@ -1,0 +1,22 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,385,26619,2 строк → 1; min_price=385; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,385,26619,2 строк → 1; min_price=385; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,537,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,537,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,144140888,"Мантоварка 7 л, MasterShef сталь, количество ярусов: 4",36500,188,2 строк → 1; min_price=36500; best_merchant='10854001'
+2_dedup,merged,duplicate_sku,144140888,"Мантоварка 7 л, MasterShef сталь, количество ярусов: 4",36500,188,2 строк → 1; min_price=36500; best_merchant='10854001'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,193,2 строк → 1; min_price=505; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,140441747,Бумажные полотенца Карина Dostyq 2-слойное 2 шт,505,193,2 строк → 1; min_price=505; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,140590119,"Ершик Royal Touch стальная ручка белый, пластик, металл",3581,354,2 строк → 1; min_price=3581; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,140590119,"Ершик Royal Touch стальная ручка белый, пластик, металл",3581,354,2 строк → 1; min_price=3581; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,143237547,"Зеркало настенное, настольное Miline 50x50 см",12900,147,2 строк → 1; min_price=12900; best_merchant='9818048'
+2_dedup,merged,duplicate_sku,143237547,"Зеркало настенное, настольное Miline 50x50 см",12900,147,2 строк → 1; min_price=12900; best_merchant='9818048'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,385,26619,Δreviews=86 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107453352,Влажные салфетки Flovell Care Fruits 15 шт жёлтый,10,16145,Δreviews=110 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107529846,Влажные салфетки Flovell Care очищающие Б/З 15 шт розовый,10,12975,Δreviews=111 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2649,923,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,117038979,"Гель для стирки Tomiko японская сакура с рождения 2,1 л",3889,630,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,132811234,"NikStory наматрасник на резинке Бамбук 160x200, микрофибра, бамбук",5200,494,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1259,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,132799781,"NikStory наматрасник на резинке Бамбук Бамбук 90x200, микрофибра, бамбук",3300,626,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101706584,"Швабра универсальная Linex, материал насадки: микрофибра, зеленый",949,305,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
