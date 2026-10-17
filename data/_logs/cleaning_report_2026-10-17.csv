@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1087,2 строк → 1; min_price=1750; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1087,2 строк → 1; min_price=1750; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,103159989,Электрогенератор 8.5 кВт 220В БГ 11000 Э Ресанта бензиновый 4-х тактный двигател,430090,5,"2 строк → 1; min_price=430090; best_merchant='3222012, 858003'"
+2_dedup,merged,duplicate_sku,103159989,Электрогенератор 8.5 кВт 220В БГ 11000 Э Ресанта бензиновый 4-х тактный двигател,430090,5,"2 строк → 1; min_price=430090; best_merchant='3222012, 858003'"
+2_dedup,merged,duplicate_sku,134042488,"Royal Touch набор контейнеров LB-01 4 шт, полипропилен",4900,183,2 строк → 1; min_price=4900; best_merchant='13629009'
+2_dedup,merged,duplicate_sku,134042488,"Royal Touch набор контейнеров LB-01 4 шт, полипропилен",4900,183,2 строк → 1; min_price=4900; best_merchant='13629009'
+6_outliers,flagged,abnormal_delta_reviews,103219104,Влажные салфетки Flovell Care очищающие Б/З 15 шт синий,10,13167,Δreviews=94 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107529846,Влажные салфетки Flovell Care очищающие Б/З 15 шт розовый,10,13107,Δreviews=132 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103219046,Влажные салфетки Flovell Care Антибактериальный 15 шт,10,7311,Δreviews=49 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,359,26685,Δreviews=66 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2740,10896,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2865,937,Δreviews=14 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105591633,Набор вешалок Dunya Plast 000000000203 черный 10 шт,799,2209,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
