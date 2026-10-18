@@ -1,0 +1,10 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1090,2 строк → 1; min_price=1750; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1090,2 строк → 1; min_price=1750; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12110,49,2 строк → 1; min_price=12110; best_merchant='30441554'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12110,49,2 строк → 1; min_price=12110; best_merchant='30441554'
+6_outliers,flagged,abnormal_delta_reviews,113091770,Салфетки влажные Tomiko детские 120 шт,1299,1562,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",594,2065,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,388,26741,Δreviews=56 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2865,951,Δreviews=14 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,4YOU Гель для стирки Свежесть сирени 5 литров,3224,5840,Δreviews=10 > threshold=9 (Q3+3.0·IQR)
