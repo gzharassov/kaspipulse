@@ -1,0 +1,7 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1089,2 строк → 1; min_price=1750; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1750,1089,2 строк → 1; min_price=1750; best_merchant='30455426'
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",594,2071,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,399,26768,Δreviews=27 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2865,963,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114508456,4YOU Гель для стирки Свежесть сирени 5 литров,3224,5846,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
