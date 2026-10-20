@@ -1,0 +1,7 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+6_outliers,flagged,abnormal_delta_reviews,108540154,"Корзина для белья, детских вещей 35x35x43.5 см, лен",589,2091,Δreviews=20 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,350,26843,Δreviews=75 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2644,974,Δreviews=11 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237381,"Зеркало настенное, настольное Miline ALFrame 80x80 см",19900,94,Δreviews=61 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237437,"Зеркало настенное, настольное Miline ALFrame 70x70 см",15900,104,Δreviews=63 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237547,"Зеркало настенное, настольное Miline 50x50 см",12900,100,Δreviews=49 > threshold=9 (Q3+3.0·IQR)
