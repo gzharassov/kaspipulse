@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,26933,2 строк → 1; min_price=392; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,26933,2 строк → 1; min_price=392; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",340,547,2 строк → 1; min_price=340; best_merchant='30218573'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",340,547,2 строк → 1; min_price=340; best_merchant='30218573'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,14,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,14,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107021791,"Набор органайзеров для одежды серый, 2 шт",1528,172,2 строк → 1; min_price=1528; best_merchant='30470779'
+2_dedup,merged,duplicate_sku,107021791,"Набор органайзеров для одежды серый, 2 шт",1528,172,2 строк → 1; min_price=1528; best_merchant='30470779'
+2_dedup,merged,duplicate_sku,116635144,"Мини-парник 5 шт, пластик",4468,257,2 строк → 1; min_price=4468; best_merchant='30475618'
+2_dedup,merged,duplicate_sku,116635144,"Мини-парник 5 шт, пластик",4468,257,2 строк → 1; min_price=4468; best_merchant='30475618'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,227,2 строк → 1; min_price=4989; best_merchant='15585029'
+2_dedup,merged,duplicate_sku,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,227,2 строк → 1; min_price=4989; best_merchant='15585029'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,392,26933,Δreviews=53 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2750,10924,Δreviews=9062 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",2942,2423,Δreviews=14 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101118303,"Paclan Мешки для мусора Premium с тесьмой 35 л, 15 шт",1184,72,Δreviews=51 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,144689386,Мотоблок бензиновый QAZAR MS95 MQ 7 л.с.,159900,46,Δreviews=43 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109319840,Мистерия тарелка D205-219мм белый 10 шт,489,17,Δreviews=17 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,109967871,"Триммер электрический 21В 9022, нож",7069,1284,Δreviews=24 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114447600,"Отбеливатель-пятновыводитель TAZA кислородный порошок,",1645,1772,Δreviews=1553 > threshold=13 (Q3+3.0·IQR)
