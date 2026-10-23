@@ -1,0 +1,23 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,355,27073,2 строк → 1; min_price=355; best_merchant='30453295'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,355,27073,2 строк → 1; min_price=355; best_merchant='30453295'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,548,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,548,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,356,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,356,2 строк → 1; min_price=395; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,355,27073,Δreviews=140 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,356,Δreviews=342 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,113091770,Салфетки влажные Tomiko детские 120 шт,1330,1601,Δreviews=14 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,136705903,"Mercado полка MR-2000 2 шт, металл",2888,2233,Δreviews=2095 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142645496,"Лапшерезка электрическая MOZZY Вид пасты:спагетти, широкая лапша, лазанья",39990,154,Δreviews=11 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138419751,Дивандек для дивана К11 серый 4метра,12900,225,Δreviews=223 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,124025142,Капсулы Капсулы для стирки Bafuri 0.3 36 шт,1890,2137,Δreviews=2135 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101118303,"Paclan Мешки для мусора Premium с тесьмой 35 л, 15 шт",1184,93,Δreviews=21 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,119871424,Одеяло NikStory Hotel 140x200 летнее,7900,296,Δreviews=41 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237381,"Зеркало настенное, настольное Miline ALFrame 80x80 см",19900,129,Δreviews=94 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237437,"Зеркало настенное, настольное Miline ALFrame 70x70 см",15900,151,Δreviews=106 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,131031602,"Придверный коврик 100x140 см, 223416770",5345,147,Δreviews=24 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,105535290,Детские влажные салфетки LOVULAR Hot Wind 96 шт,800,190,Δreviews=35 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143237547,"Зеркало настенное, настольное Miline 50x50 см",12900,152,Δreviews=101 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103548759,Одеяло Aline Home HIT180982 200x210 всесезонное,10896,577,Δreviews=534 > threshold=10 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138134428,"EVA KZ защитный коврик 70x140 см, Базовая коллекция Brown romb70/140",4989,241,Δreviews=14 > threshold=10 (Q3+3.0·IQR)
