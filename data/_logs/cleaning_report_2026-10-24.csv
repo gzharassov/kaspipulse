@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,365,27113,2 строк → 1; min_price=365; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,365,27113,2 строк → 1; min_price=365; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,549,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,549,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,109,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,105737972,Wally Plastic набор 469 M голубой 100 шт,1290,109,2 строк → 1; min_price=1290; best_merchant='30433821'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,357,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,357,2 строк → 1; min_price=395; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,365,27113,Δreviews=40 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3099,2439,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,835,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,108431472,"Подушка VITAS 50x70 см, шелк шелкопряда",2199,1694,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1308,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
