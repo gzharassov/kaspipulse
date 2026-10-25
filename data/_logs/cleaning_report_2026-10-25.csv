@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,414,27145,2 строк → 1; min_price=414; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,414,27145,2 строк → 1; min_price=414; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,550,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",405,550,2 строк → 1; min_price=405; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,357,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",395,357,2 строк → 1; min_price=395; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,130839545,Светильник настенно-потолочный без цоколя 2 Вт белый,1899,183,2 строк → 1; min_price=1899; best_merchant='30316364'
+2_dedup,merged,duplicate_sku,130839545,Светильник настенно-потолочный без цоколя 2 Вт белый,1899,183,2 строк → 1; min_price=1899; best_merchant='30316364'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12110,51,2 строк → 1; min_price=12110; best_merchant='30441554'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12110,51,2 строк → 1; min_price=12110; best_merchant='30441554'
+6_outliers,flagged,abnormal_delta_reviews,113091770,Салфетки влажные Tomiko детские 120 шт,1299,1613,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,414,27145,Δreviews=32 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,841,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
