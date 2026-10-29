@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2200,10963,"2 строк → 1; min_price=2200; best_merchant='30431027, 30483393'"
+2_dedup,merged,duplicate_sku,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2240,10963,"2 строк → 1; min_price=2200; best_merchant='30431027, 30483393'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,27302,2 строк → 1; min_price=348; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,27302,2 строк → 1; min_price=348; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",390,552,2 строк → 1; min_price=390; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",390,552,2 строк → 1; min_price=390; best_merchant='30463752'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,360,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,360,2 строк → 1; min_price=549; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2200,10963,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,27302,Δreviews=46 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112998834,"Диффузор с палочками Parfum De Vie клубника, яблоко, цветок апельсина 165 мл",9900,483,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3099,2473,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,143846064,"Подушка NikStory 50x70 см, силиконизированное волокно",3590,873,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138954887,"MiBaby распылитель для масла, уксуса, соуса, premium бутылка 1 шт",2790,986,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1345,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101706584,"Швабра универсальная Linex, материал насадки: микрофибра, зеленый",798,369,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
