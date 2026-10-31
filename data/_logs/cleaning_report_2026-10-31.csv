@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,340,27386,2 строк → 1; min_price=340; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,340,27386,2 строк → 1; min_price=340; best_merchant='3721006'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,555,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,555,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,361,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,361,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,135074928,"Биоактиватор Септизим 5л для биотуалетов, септиков и выгребных ям 5 л",13250,61,2 строк → 1; min_price=13250; best_merchant='30399237'
+2_dedup,merged,duplicate_sku,135074928,"Биоактиватор Септизим 5л для биотуалетов, септиков и выгребных ям 5 л",13250,61,2 строк → 1; min_price=13250; best_merchant='30399237'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,340,27386,Δreviews=43 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112998834,"Диффузор с палочками Parfum De Vie клубника, яблоко, цветок апельсина 165 мл",9900,507,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116477699,"Набор контейнеров 799694303, 12 шт пластик",3698,2492,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,115391401,Диффузор с палочками Parfum De Vie цветочный 165 мл,9900,184,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,138652603,"Подушка NikStory 50x70 см, файбер",1390,1365,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101706584,"Швабра универсальная Linex, материал насадки: микрофибра, зеленый",799,381,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
