@@ -1,0 +1,16 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,59,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,59,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,555,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",475,555,2 строк → 1; min_price=475; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,361,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,361,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107922427,Карниз Milana круглый двухрядный серебристый 200 см,5600,125,2 строк → 1; min_price=5600; best_merchant='16678600'
+2_dedup,merged,duplicate_sku,107922427,Карниз Milana круглый двухрядный серебристый 200 см,5600,125,2 строк → 1; min_price=5600; best_merchant='16678600'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12000,51,2 строк → 1; min_price=12000; best_merchant='30441554'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12000,51,2 строк → 1; min_price=12000; best_merchant='30441554'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",679,3046,Δreviews=10 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112998834,"Диффузор с палочками Parfum De Vie клубника, яблоко, цветок апельсина 165 мл",9900,515,Δreviews=8 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2705,10983,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,404,27428,Δreviews=42 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102335764,Средство для мытья посуды YokoSun алоэ вера 1 л,2099,220,Δreviews=6 > threshold=5 (Q3+3.0·IQR)
