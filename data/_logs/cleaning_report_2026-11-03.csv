@@ -1,0 +1,17 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,133571928,Влажные салфетки Flovell Care Fruits 15 шт белый,10,19851,2 строк → 1; min_price=10; best_merchant='30054042'
+2_dedup,merged,duplicate_sku,133571928,Влажные салфетки Flovell Care Fruits 15 шт белый,10,19851,2 строк → 1; min_price=10; best_merchant='30054042'
+2_dedup,merged,duplicate_sku,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",679,3078,2 строк → 1; min_price=679; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",679,3078,2 строк → 1; min_price=679; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1490,1121,2 строк → 1; min_price=1490; best_merchant='30458876'
+2_dedup,merged,duplicate_sku,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1490,1121,2 строк → 1; min_price=1490; best_merchant='30458876'
+2_dedup,merged,duplicate_sku,104827528,Happy Moon Premium 6 упаковок х 72 шт,2605,838,2 строк → 1; min_price=2605; best_merchant='30093501'
+2_dedup,merged,duplicate_sku,104827528,Happy Moon Premium 6 упаковок х 72 шт,2605,838,2 строк → 1; min_price=2605; best_merchant='30093501'
+2_dedup,merged,duplicate_sku,140021824,"Подушка для беременных WOW MOM 60x150 см, синтепон",4000,754,2 строк → 1; min_price=4000; best_merchant='30350904'
+2_dedup,merged,duplicate_sku,140021824,"Подушка для беременных WOW MOM 60x150 см, синтепон",4000,754,2 строк → 1; min_price=4000; best_merchant='30350904'
+2_dedup,merged,duplicate_sku,150479857,Диффузор с палочками виноград 100 мл,2869,68,2 строк → 1; min_price=2869; best_merchant='30383023'
+2_dedup,merged,duplicate_sku,150479857,Диффузор с палочками виноград 100 мл,2869,68,2 строк → 1; min_price=2869; best_merchant='30383023'
+2_dedup,merged,duplicate_sku,104066455,"Сервиз на 12 персон lacasa.kz 123LA, предметов: 95, чайно-столовый, фарфор",36500,489,2 строк → 1; min_price=36500; best_merchant='30473479'
+2_dedup,merged,duplicate_sku,104066455,"Сервиз на 12 персон lacasa.kz 123LA, предметов: 95, чайно-столовый, фарфор",36500,489,2 строк → 1; min_price=36500; best_merchant='30473479'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",679,3078,Δreviews=25 > threshold=11 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,440,27522,Δreviews=52 > threshold=11 (Q3+3.0·IQR)
