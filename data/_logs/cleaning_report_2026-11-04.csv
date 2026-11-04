@@ -1,0 +1,7 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",677,3098,2 строк → 1; min_price=677; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",677,3098,2 строк → 1; min_price=677; best_merchant='30455426'
+2_dedup,merged,duplicate_sku,113091770,Салфетки влажные Tomiko детские 120 шт,1290,1679,2 строк → 1; min_price=1290; best_merchant='TEHG'
+2_dedup,merged,duplicate_sku,113091770,Салфетки влажные Tomiko детские 120 шт,1290,1679,2 строк → 1; min_price=1290; best_merchant='TEHG'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",677,3098,Δreviews=20 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,168484306,"Гель THE HELLO Грейпфрут / Сандал / Бергамот для машинной стирки, 4 л",4990,2551,Δreviews=26 > threshold=9 (Q3+3.0·IQR)
