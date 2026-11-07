@@ -1,0 +1,21 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,136636000,Sigma+ набор Black Vinyl Nitrile Blend Gloves 788364408907 черный 100 шт,1379,556,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,136636000,Sigma+ набор Black Vinyl Nitrile Blend Gloves 788364408907 черный 100 шт,1379,556,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,60,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,60,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,136400085,Sigma+ перчатки 788364408907 черный 100 шт L,1379,616,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,136400085,Sigma+ перчатки 788364408907 черный 100 шт L,1379,616,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,138847083,"Sigma+ набор 138847087 черный 100 шт, XL",1379,181,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,138847083,"Sigma+ набор 138847087 черный 100 шт, XL",1379,181,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27706,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27706,2 строк → 1; min_price=400; best_merchant='30214695'
+2_dedup,merged,duplicate_sku,100018663,"Подушка Askona 50x70 см, бамбуковое волокно",20999,97,2 строк → 1; min_price=20999; best_merchant='17164330'
+2_dedup,merged,duplicate_sku,100018663,"Подушка Askona 50x70 см, бамбуковое волокно",20999,97,2 строк → 1; min_price=20999; best_merchant='17164330'
+2_dedup,merged,duplicate_sku,131457224,"Чайник Granhel Eco line series GP-006 1.5 л, боросиликатное стекло",11000,182,2 строк → 1; min_price=11000; best_merchant='9318006'
+2_dedup,merged,duplicate_sku,131457224,"Чайник Granhel Eco line series GP-006 1.5 л, боросиликатное стекло",11000,182,2 строк → 1; min_price=11000; best_merchant='9318006'
+2_dedup,merged,duplicate_sku,105591633,Набор вешалок Dunya Plast 000000000203 черный 10 шт,730,2248,2 строк → 1; min_price=730; best_merchant='30479144'
+2_dedup,merged,duplicate_sku,105591633,Набор вешалок Dunya Plast 000000000203 черный 10 шт,730,2248,2 строк → 1; min_price=730; best_merchant='30479144'
+2_dedup,merged,duplicate_sku,130627205,"Роза, осока 16 см, 30137069_816815354",1390,374,2 строк → 1; min_price=1390; best_merchant='30422239'
+2_dedup,merged,duplicate_sku,130627205,"Роза, осока 16 см, 30137069_816815354",1390,374,2 строк → 1; min_price=1390; best_merchant='30422239'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",677,3185,Δreviews=29 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27706,Δreviews=35 > threshold=9 (Q3+3.0·IQR)
