@@ -1,0 +1,15 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,136636000,Sigma+ набор Black Vinyl Nitrile Blend Gloves 788364408907 черный 100 шт,1379,556,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,136636000,Sigma+ набор Black Vinyl Nitrile Blend Gloves 788364408907 черный 100 шт,1379,556,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,61,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1120,61,2 строк → 1; min_price=1120; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,136400085,Sigma+ перчатки 788364408907 черный 100 шт L,1379,616,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,136400085,Sigma+ перчатки 788364408907 черный 100 шт L,1379,616,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,138847083,"Sigma+ набор 138847087 черный 100 шт, XL",1379,181,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,138847083,"Sigma+ набор 138847087 черный 100 шт, XL",1379,181,2 строк → 1; min_price=1379; best_merchant='17973943'
+2_dedup,merged,duplicate_sku,150647393,"Комплект Sathome 500x270 см 5 шт, велюр, белый, бежевый",35500,78,2 строк → 1; min_price=35500; best_merchant='18534197'
+2_dedup,merged,duplicate_sku,150647393,"Комплект Sathome 500x270 см 5 шт, велюр, белый, бежевый",35500,78,2 строк → 1; min_price=35500; best_merchant='18534197'
+2_dedup,merged,duplicate_sku,122289453,"Сковорода Tefal EASY PLUS 24 см с антипригарным покрытием, алюминий",17990,89,2 строк → 1; min_price=17990; best_merchant='Shinkkz'
+2_dedup,merged,duplicate_sku,122289453,"Сковорода Tefal EASY PLUS 24 см с антипригарным покрытием, алюминий",17990,89,2 строк → 1; min_price=17990; best_merchant='Shinkkz'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",677,3228,Δreviews=43 > threshold=13 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,439,27752,Δreviews=46 > threshold=13 (Q3+3.0·IQR)
