@@ -1,0 +1,9 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27857,2 строк → 1; min_price=400; best_merchant='8226005'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27857,2 строк → 1; min_price=400; best_merchant='8226005'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,564,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,564,2 строк → 1; min_price=474; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,133571928,Влажные салфетки Flovell Care Fruits 15 шт белый,10,20560,Δreviews=51 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103219110,Влажные салфетки Flovell Care Fruits 15 шт синий,40,18570,Δreviews=40 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",670,3302,Δreviews=27 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,400,27857,Δreviews=55 > threshold=5 (Q3+3.0·IQR)
