@@ -1,0 +1,18 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,437,27903,"2 строк → 1; min_price=416; best_merchant='4096001, 960061'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,416,27903,"2 строк → 1; min_price=416; best_merchant='4096001, 960061'"
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,364,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,101191530,"Губка для посуды PaclanPRACTI Universal 5 шт, поролон, абразив",549,364,2 строк → 1; min_price=549; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,116937868,"Мойка высокого давления ALTECO электрический 120 бар, CPW 120-6 66878",35990,1080,2 строк → 1; min_price=35990; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,116937868,"Мойка высокого давления ALTECO электрический 120 бар, CPW 120-6 66878",35990,1080,2 строк → 1; min_price=35990; best_merchant='Nemo'
+2_dedup,merged,duplicate_sku,103548759,Одеяло Aline Home HIT180982 200x210 всесезонное,9495,580,2 строк → 1; min_price=9495; best_merchant='16436083'
+2_dedup,merged,duplicate_sku,103548759,Одеяло Aline Home HIT180982 200x210 всесезонное,9495,580,2 строк → 1; min_price=9495; best_merchant='16436083'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",670,3384,Δreviews=82 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,416,27903,Δreviews=46 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,"Отбеливатель TAZA Кислородный эко порошок, 1000 мл",2740,11033,Δreviews=14 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2527,1052,Δreviews=13 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,117821704,"Набор ножей Smeg 30254640_676497352, лезвие: нержавеющая сталь 6 шт",17504,1786,Δreviews=11 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,106692715,"Астау Базовая коллекция 58х43 см, дерево, 1 шт",12597,66,Δreviews=66 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,101706584,"Швабра универсальная Linex, материал насадки: микрофибра, зеленый",799,464,Δreviews=14 > threshold=9 (Q3+3.0·IQR)
