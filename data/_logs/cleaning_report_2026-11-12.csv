@@ -1,0 +1,9 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,422,27980,"2 строк → 1; min_price=421; best_merchant='960061, ArtisOptima'"
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,421,27980,"2 строк → 1; min_price=421; best_merchant='960061, ArtisOptima'"
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",670,3442,Δreviews=58 > threshold=12 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,421,27980,Δreviews=77 > threshold=12 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,135155941,"Сковорода MasterShef Гранит 28 см с антипригарным покрытием, алюминий",14370,1049,Δreviews=13 > threshold=12 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,117821704,"Набор ножей Smeg 30254640_676497352, лезвие: нержавеющая сталь 6 шт",16990,1800,Δreviews=14 > threshold=12 (Q3+3.0·IQR)
