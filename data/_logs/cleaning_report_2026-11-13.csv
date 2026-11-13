@@ -1,0 +1,9 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,420,28066,2 строк → 1; min_price=420; best_merchant='960061'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,420,28066,2 строк → 1; min_price=420; best_merchant='960061'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,566,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,27600211,Газонокосилка самоходная бензиновая Huter GLM-6.0ST 70/3/7,173290,21,2 строк → 1; min_price=173290; best_merchant='30391387'
+2_dedup,merged,duplicate_sku,27600211,Газонокосилка самоходная бензиновая Huter GLM-6.0ST 70/3/7,173290,21,2 строк → 1; min_price=173290; best_merchant='30391387'
+6_outliers,flagged,abnormal_delta_reviews,116664159,"Тряпка для зеркал и стекол, для мебели, для металлических поверхностей, для пола",670,3490,Δreviews=48 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,420,28066,Δreviews=86 > threshold=9 (Q3+3.0·IQR)
