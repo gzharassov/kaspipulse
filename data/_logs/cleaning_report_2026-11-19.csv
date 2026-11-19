@@ -1,0 +1,11 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,28610,2 строк → 1; min_price=348; best_merchant='15220023'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,28610,2 строк → 1; min_price=348; best_merchant='15220023'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,568,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,568,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,104588183,"Прожектор на кронштейне Lightko 30 Вт, холодный белый",2448,217,2 строк → 1; min_price=2448; best_merchant='30377161'
+2_dedup,merged,duplicate_sku,104588183,"Прожектор на кронштейне Lightko 30 Вт, холодный белый",2448,217,2 строк → 1; min_price=2448; best_merchant='30377161'
+6_outliers,flagged,abnormal_delta_reviews,112640978,"Набор органайзеров для нижнего белья белый, серый, 6 шт",1599,2167,Δreviews=10 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,118306313,"Корзина универсальная 20x14x7 см, пластик",190,1751,Δreviews=25 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,348,28610,Δreviews=104 > threshold=7 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,1225,Δreviews=10 > threshold=7 (Q3+3.0·IQR)
