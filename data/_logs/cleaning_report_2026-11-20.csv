@@ -1,0 +1,9 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,316,28717,2 строк → 1; min_price=316; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,316,28717,2 строк → 1; min_price=316; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,568,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,568,2 строк → 1; min_price=474; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,118306313,"Корзина универсальная 20x14x7 см, пластик",190,1763,Δreviews=12 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112640978,"Набор органайзеров для нижнего белья белый, серый, 6 шт",1599,2185,Δreviews=18 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,316,28717,Δreviews=107 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,104634647,"Мойка высокого давления Huter электрический 210 бар, W-5-2600 PRO",142690,77,Δreviews=77 > threshold=5 (Q3+3.0·IQR)
