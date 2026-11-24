@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,298,29231,2 строк → 1; min_price=298; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,298,29232,2 строк → 1; min_price=298; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,569,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,569,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2750,117,2 строк → 1; min_price=2750; best_merchant='30424495'
+2_dedup,merged,duplicate_sku,105064519,"Simple Lifestyle придверный коврик 60x90 см, Sv-004",2750,117,2 строк → 1; min_price=2750; best_merchant='30424495'
+2_dedup,merged,duplicate_sku,116870364,"Электростанция бензиновая Huter 6 кВт 1 (220 В), DN7500i 64/10/11",260990,15,2 строк → 1; min_price=260990; best_merchant='SuperPrice'
+2_dedup,merged,duplicate_sku,116870364,"Электростанция бензиновая Huter 6 кВт 1 (220 В), DN7500i 64/10/11",260990,15,2 строк → 1; min_price=260990; best_merchant='SuperPrice'
+6_outliers,flagged,abnormal_delta_reviews,118306313,"Корзина универсальная 20x14x7 см, пластик",190,1826,Δreviews=17 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,298,29231,Δreviews=255 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116396568,Стиральный порошок Tide Color автомат 15 кг,11330,608,Δreviews=14 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2644,1113,Δreviews=13 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1639,1263,Δreviews=10 > threshold=9 (Q3+3.0·IQR)
