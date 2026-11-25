@@ -1,0 +1,12 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1150,69,2 строк → 1; min_price=1150; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,101665727,"Тряпка универсальная Фрекен Бок 101665727 6 шт, вискоза",1150,69,2 строк → 1; min_price=1150; best_merchant='30453563'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,349,29389,2 строк → 1; min_price=349; best_merchant='30489481'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,349,29390,2 строк → 1; min_price=349; best_merchant='30489481'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,570,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,"Тряпка универсальная Santex Allzwecktuch 3 шт, вискоза",474,570,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12000,56,2 строк → 1; min_price=12000; best_merchant='30441554'
+2_dedup,merged,duplicate_sku,140603965,Воздуходувка Suitu 16 кВт 16 л.с. 30 куб. м/ч,12000,56,2 строк → 1; min_price=12000; best_merchant='30441554'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,349,29389,Δreviews=158 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116396568,Стиральный порошок Tide Color автомат 15 кг,11325,619,Δreviews=11 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,107398721,"Швабра универсальная, для пола, для стен Aurora, материал насадки: микрофибра, б",1877,1272,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
