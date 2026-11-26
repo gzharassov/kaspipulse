@@ -1,0 +1,11 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,342,29545,2 строк → 1; min_price=342; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,342,29545,2 строк → 1; min_price=342; best_merchant='Satel'
+2_dedup,merged,duplicate_sku,107070922,Тряпка для кухни Santex 3 шт,474,571,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,Тряпка для кухни Santex 3 шт,474,571,2 строк → 1; min_price=474; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,342,29545,Δreviews=156 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103958889,Бумага туалетная Маолин 2 слоя 10 шт,983,1297,Δreviews=42 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116396568,Стиральный порошок Tide Color автомат 15 кг,11325,628,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,Отбеливатель Taza кислородный 1000 гр,2750,11118,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2644,1126,Δreviews=9 > threshold=5 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,103071194,Средство для мытья посуды Fairy сочный лимон 900 мл,1475,639,Δreviews=7 > threshold=5 (Q3+3.0·IQR)
