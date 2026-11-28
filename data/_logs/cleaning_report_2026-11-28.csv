@@ -1,0 +1,14 @@
+stage,action,reason,product_id,name,price,reviews_count,detail
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,310,29886,2 строк → 1; min_price=310; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,310,29886,2 строк → 1; min_price=310; best_merchant='Sulpak'
+2_dedup,merged,duplicate_sku,107070922,Тряпка для кухни Santex 3 шт,474,572,2 строк → 1; min_price=474; best_merchant='Magnum'
+2_dedup,merged,duplicate_sku,107070922,Тряпка для кухни Santex 3 шт,474,572,2 строк → 1; min_price=474; best_merchant='Magnum'
+6_outliers,flagged,abnormal_delta_reviews,107529846,Влажные салфетки Flovell Care очищающие Б/З 15 шт розовый,30,15565,Δreviews=51 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,118306313,"Корзина универсальная 20x14x7 см, пластик",190,1859,Δreviews=17 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,102175971,Салфетки влажные Flovell Care Classic розовые 120 шт,310,29886,Δreviews=341 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,116396568,Стиральный порошок Tide Color автомат 15 кг,11325,650,Δreviews=22 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,142513353,"Подушка NikStory 50x70 см, файбер",1590,1274,Δreviews=10 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114269290,Отбеливатель Taza кислородный 1000 гр,2739,11130,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,140052753,Кондиционер для белья Lenor Скандинавская Весна 59 стирок 1239 мл,2644,1145,Δreviews=19 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,112423965,Салфетки Papirone вытяжные 3 слоя 150 шт,395,1016,Δreviews=12 > threshold=9 (Q3+3.0·IQR)
+6_outliers,flagged,abnormal_delta_reviews,114483929,Крем-мыло жидкое Я Самая Bio с экстрактами пиона и ванили 500 мл,774,228,Δreviews=22 > threshold=9 (Q3+3.0·IQR)
